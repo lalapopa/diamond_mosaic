@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__
+**/__pycache__
+**/dist
+*.pyc
+test.py
+playing_with_pil.py
+*.jpg
+*.png

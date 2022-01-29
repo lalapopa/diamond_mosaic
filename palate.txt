@@ -1,0 +1,2713 @@
+<td bgcolor="#e9e9d4" class="style3"></td>
+<td class="style3">000</td>
+<td class="style3">Ecru</td>
+<td class="style3">Кремовый</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" class="style3"></td>
+<td class="style3">B5200</td>
+<td class="style3">Ultra white</td>
+<td class="style3">Белоснежный</td>
+</tr>
+<tr>
+<td bgcolor="#9f3845" class="style3"></td>
+<td class="style3">150</td>
+<td class="style3">Dusty Rose - ultra vy dk</td>
+<td class="style3">Пыльная роза, ультра очень тёмный (оч.т.)</td>
+</tr>
+<tr>
+<td bgcolor="#f2bcc5" class="style3"></td>
+<td class="style3">151</td>
+<td class="style3">Dusty Rose - vy lt</td>
+<td class="style3">Пыльная роза, очень светлый (оч.св.)</td>
+</tr>
+<tr>
+<td bgcolor="#cfa296" class="style3"></td>
+<td class="style3">152</td>
+<td class="style3">Shell Pink - med lt</td>
+<td class="style3">Розовых ракушек, средне светлый (ср.св.)</td>
+</tr>
+<tr>
+<td bgcolor="#debcd9" class="style3"></td>
+<td class="style3">153</td>
+<td class="style3">Violet - vy lt</td>
+<td class="style3">Фиолетовый, очень светлый (оч.св)</td>
+</tr>
+<tr>
+<td bgcolor="#4d2e3d" class="style3"></td>
+<td class="style3">154</td>
+<td class="style3">Grape - vy dk</td>
+<td class="style3">Красного винограда, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#908bc3" class="style3"></td>
+<td class="style3">155</td>
+<td class="style3">Blue Violet - med dk</td>
+<td class="style3">Сине-фиолетовый, ср.т.</td>
+</tr>
+<tr>
+<td bgcolor="#8b9ac5" class="style3"></td>
+<td class="style3">156</td>
+<td class="style3">Blue Violet - med lt</td>
+<td class="style3">Сине-фиолетовый, ср.св.</td>
+</tr>
+<tr>
+<td bgcolor="#abc2de" class="style3"></td>
+<td class="style3">157</td>
+<td class="style3">Cornflower Blue - vy lt</td>
+<td class="style3">Васильковый, кобальтовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#465082" class="style3"></td>
+<td class="style3">158</td>
+<td class="style3">Cornflower Blue-med vy dk</td>
+<td class="style3">Васильковый, кобальтовый, ср.оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#a7b4cd" class="style3"></td>
+<td class="style3">159</td>
+<td class="style3">Gray Blue-lt</td>
+<td class="style3">Серо-синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#8290ae" class="style3"></td>
+<td class="style3">160</td>
+<td class="style3">Gray Blue-med</td>
+<td class="style3">Серо-синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#667594" class="style3"></td>
+<td class="style3">161</td>
+<td class="style3">Gray Blue</td>
+<td class="style3">Серо-синий</td>
+</tr>
+<tr>
+<td bgcolor="#bddbe6" class="style3"></td>
+<td class="style3">162</td>
+<td class="style3">Blue-ultra vy lt</td>
+<td class="style3">Голубой, ультра оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#569571" class="style3"></td>
+<td class="style3">163</td>
+<td class="style3">Celadon Green-med</td>
+<td class="style3">Серовато-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#9fcc8d" class="style3"></td>
+<td class="style3">164</td>
+<td class="style3">Forest Green-lt</td>
+<td class="style3">Зеленый лесной, св.</td>
+</tr>
+<tr>
+<td bgcolor="#dad878" class="style3"></td>
+<td class="style3">165</td>
+<td class="style3">Moss Green-vylt</td>
+<td class="style3">Мох, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#bfbb20" class="style3"></td>
+<td class="style3">166</td>
+<td class="style3">Moss Green-med lt</td>
+<td class="style3">Мох, ср.св.</td>
+</tr>
+<tr>
+<td bgcolor="#9f8447" class="style3"></td>
+<td class="style3">167</td>
+<td class="style3">Yellow Beige-vy dk</td>
+<td class="style3">Желтовато-бежевый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#b4c3c1" class="style3"></td>
+<td class="style3">168</td>
+<td class="style3">Pewter-vy lt</td>
+<td class="style3">Оловянный, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#8b9a94" class="style3"></td>
+<td class="style3">169</td>
+<td class="style3">Pewter-lt</td>
+<td class="style3">Оловянный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#9870ac" class="style3"></td>
+<td class="style3">208</td>
+<td class="style3">Lavender-vy dk</td>
+<td class="style3">Лаванда, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#b693b6" class="style3"></td>
+<td class="style3">209</td>
+<td class="style3">Lavender-dk</td>
+<td class="style3">Лаванда, т.</td>
+</tr>
+<tr>
+<td bgcolor="#c9afdd" class="style3"></td>
+<td class="style3">210</td>
+<td class="style3">Lavender-med</td>
+<td class="style3">Лаванда, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#d4c3e4" class="style3"></td>
+<td class="style3">211</td>
+<td class="style3">Lavender-lt</td>
+<td class="style3">Лаванда, св.</td>
+</tr>
+<tr>
+<td bgcolor="#884238" class="style3"></td>
+<td class="style3">221</td>
+<td class="style3">Shel lPink-vy dk</td>
+<td class="style3">Розовых ракушек, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#bb817b" class="style3"></td>
+<td class="style3">223</td>
+<td class="style3">Shell Pink-lt</td>
+<td class="style3">Розовых ракушек, св.</td>
+</tr>
+<tr>
+<td bgcolor="#dfb3a6" class="style3"></td>
+<td class="style3">224</td>
+<td class="style3">ShellPink-vy lt</td>
+<td class="style3">Розовых ракушек, оч. св.</td>
+</tr>
+<tr>
+<td bgcolor="#ecd9cf" class="style3"></td>
+<td class="style3">225</td>
+<td class="style3">ShellPink-ultra vy lt</td>
+<td class="style3">Розовых ракушек, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#784e24" class="style3"></td>
+<td class="style3">300</td>
+<td class="style3">Mahogany-vy dk</td>
+<td class="style3">Красного дерева, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#aa6730" class="style3"></td>
+<td class="style3">301</td>
+<td class="style3">Mahogany-med</td>
+<td class="style3">Красного дерева, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#9e3332" class="style3"></td>
+<td class="style3">304</td>
+<td class="style3">Christmas Red-med</td>
+<td class="style3">Рождественский красный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#f6e311" class="style3"></td>
+<td class="style3">307</td>
+<td class="style3">Lemon</td>
+<td class="style3">Лимонный</td>
+</tr>
+<tr>
+<td bgcolor="#b84351" class="style3"></td>
+<td class="style3">309</td>
+<td class="style3">Rose-dk</td>
+<td class="style3">Розы, т.</td>
+</tr>
+<tr>
+<td bgcolor="black" class="style3"></td>
+<td class="style3">310</td>
+<td class="style3">Black</td>
+<td class="style3">Черный</td>
+</tr>
+<tr>
+<td bgcolor="#30506f" class="style3"></td>
+<td class="style3">311</td>
+<td class="style3">Navy Blue-med</td>
+<td class="style3">Темно-синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#386189" class="style3"></td>
+<td class="style3">312</td>
+<td class="style3">Navy Blue-lt</td>
+<td class="style3">Темно-синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#8e5d5c" class="style3"></td>
+<td class="style3">315</td>
+<td class="style3">Antique Mauve-med dk</td>
+<td class="style3">Античный розовато-лиловый, ср.т.</td>
+</tr>
+<tr>
+<td bgcolor="#bf889c" class="style3"></td>
+<td class="style3">316</td>
+<td class="style3">Antique Mauve-med</td>
+<td class="style3">Античный розовато-лиловый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#697275" class="style3"></td>
+<td class="style3">317</td>
+<td class="style3">Pewter Grey</td>
+<td class="style3">Оловянносерый</td>
+</tr>
+<tr>
+<td bgcolor="#a0a7b0" class="style3"></td>
+<td class="style3">318</td>
+<td class="style3">Steel Grey-lt</td>
+<td class="style3">Стальной, св.</td>
+</tr>
+<tr>
+<td bgcolor="#35633d" class="style3"></td>
+<td class="style3">319</td>
+<td class="style3">Pistachio Green-vy dk</td>
+<td class="style3">Фисташково-зеленый,оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#71a072" class="style3"></td>
+<td class="style3">320</td>
+<td class="style3">Pistachio Green-med</td>
+<td class="style3">Фисташково-зеленый,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ce1f32" class="style3"></td>
+<td class="style3">321</td>
+<td class="style3">Christmas Red</td>
+<td class="style3">Рождественскийкрасный</td>
+</tr>
+<tr>
+<td bgcolor="#647e9d" class="style3"></td>
+<td class="style3">322</td>
+<td class="style3">NavyBlue-vy lt</td>
+<td class="style3">Темно-синий,оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#a92332" class="style3"></td>
+<td class="style3">326</td>
+<td class="style3">Rose-vy dk</td>
+<td class="style3">Розы,оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#723657" class="style3"></td>
+<td class="style3">327</td>
+<td class="style3">Violet-vy dk</td>
+<td class="style3">Фиолетовый,оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#6c5086" class="style3"></td>
+<td class="style3">333</td>
+<td class="style3">BlueViolet-vy dk</td>
+<td class="style3">Сине-фиолетовый,оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#4c698c" class="style3"></td>
+<td class="style3">334</td>
+<td class="style3">BabyBlue-med</td>
+<td class="style3">Нежноголубой,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e56d7f" class="style3"></td>
+<td class="style3">335</td>
+<td class="style3">Rose</td>
+<td class="style3">Розы</td>
+</tr>
+<tr>
+<td bgcolor="#0c1225" class="style3"></td>
+<td class="style3">336</td>
+<td class="style3">Navy Blue</td>
+<td class="style3">Темно-синий</td>
+</tr>
+<tr>
+<td bgcolor="#9389c1" class="style3"></td>
+<td class="style3">340</td>
+<td class="style3">Blue Violet-med</td>
+<td class="style3">Сине-фиолетовый,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#a2accd" class="style3"></td>
+<td class="style3">341</td>
+<td class="style3">Blue Violet-lt</td>
+<td class="style3">Сине-фиолетовый,св.</td>
+</tr>
+<tr>
+<td bgcolor="#bf3e31" class="style3"></td>
+<td class="style3">347</td>
+<td class="style3">Salmon - vy dk</td>
+<td class="style3">Лососевый,оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#c24731" class="style3"></td>
+<td class="style3">349</td>
+<td class="style3">Coral-dk</td>
+<td class="style3">Коралловокрасный,т.</td>
+</tr>
+<tr>
+<td bgcolor="#e46647" class="style3"></td>
+<td class="style3">350</td>
+<td class="style3">Coral-med</td>
+<td class="style3">Кораллово красный,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#f78465" class="style3"></td>
+<td class="style3">351</td>
+<td class="style3">Coral</td>
+<td class="style3">Кораллово красный</td>
+</tr>
+<tr>
+<td bgcolor="#f69d80" class="style3"></td>
+<td class="style3">352</td>
+<td class="style3">Coral-lt</td>
+<td class="style3">Коралловокрасный,св.</td>
+</tr>
+<tr>
+<td bgcolor="#fdbca1" class="style3"></td>
+<td class="style3">353</td>
+<td class="style3">Peach</td>
+<td class="style3">Персиковый</td>
+</tr>
+<tr>
+<td bgcolor="#9a3b2d" class="style3"></td>
+<td class="style3">355</td>
+<td class="style3">TerraCotta-dk</td>
+<td class="style3">Терракотовый,т.</td>
+</tr>
+<tr>
+<td bgcolor="#a06757" class="style3"></td>
+<td class="style3">356</td>
+<td class="style3">TerraCotta-med</td>
+<td class="style3">Терракотовый,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#4c7047" class="style3"></td>
+<td class="style3">367</td>
+<td class="style3">PistachioGreen-dk</td>
+<td class="style3">Фисташково-зеленый,т.</td>
+</tr>
+<tr>
+<td bgcolor="#91ab84" class="style3"></td>
+<td class="style3">368</td>
+<td class="style3">PistachioGreen-lt</td>
+<td class="style3">Фисташково-зеленый,св.</td>
+</tr>
+<tr>
+<td bgcolor="#ccdcbe" class="style3"></td>
+<td class="style3">369</td>
+<td class="style3">PistachioGreen-vy lt</td>
+<td class="style3">Фисташково-зеленый,оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#bbaa55" class="style3"></td>
+<td class="style3">370</td>
+<td class="style3">Mustard-med</td>
+<td class="style3">Горчичный,ср.</td>
+</tr>
+<tr>
+<td bgcolor="#a08f4d" class="style3"></td>
+<td class="style3">371</td>
+<td class="style3">Mustard</td>
+<td class="style3">Горчичный</td>
+</tr>
+<tr>
+<td bgcolor="#9c8c4a" class="style3"></td>
+<td class="style3">372</td>
+<td class="style3">Mustard - lt</td>
+<td class="style3">Горчичный,св.</td>
+</tr>
+<tr>
+<td bgcolor="#934d29" class="style3"></td>
+<td class="style3">400</td>
+<td class="style3">Mahogany - dk</td>
+<td class="style3">Красного дерева, т.</td>
+</tr>
+<tr>
+<td bgcolor="#e8a76d" class="style3"></td>
+<td class="style3">402</td>
+<td class="style3">Mahogany - vy lt</td>
+<td class="style3">Красного дерева, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#c49a87" class="style3"></td>
+<td class="style3">407</td>
+<td class="style3">Desert Sand - dk</td>
+<td class="style3">Пустынного песка, т.</td>
+</tr>
+<tr>
+<td bgcolor="#535657" class="style3"></td>
+<td class="style3">413</td>
+<td class="style3">Pewter Grey - dk</td>
+<td class="style3">Оловянно серый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#95909d" class="style3"></td>
+<td class="style3">414</td>
+<td class="style3">Steel Grey - dk</td>
+<td class="style3">Стальной, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d3d4db" class="style3"></td>
+<td class="style3">415</td>
+<td class="style3">Pearl Grey</td>
+<td class="style3">Жемчужно серый</td>
+</tr>
+<tr>
+<td bgcolor="#866226" class="style3"></td>
+<td class="style3">420</td>
+<td class="style3">Hazelnut Brown - dk</td>
+<td class="style3">Фундука, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d0ba79" class="style3"></td>
+<td class="style3">422</td>
+<td class="style3">Hazelnut Brown - lt</td>
+<td class="style3">Фундука, св.</td>
+</tr>
+<tr>
+<td bgcolor="#775437" class="style3"></td>
+<td class="style3">433</td>
+<td class="style3">Brown - med</td>
+<td class="style3">Коричневый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b78237" class="style3"></td>
+<td class="style3">434</td>
+<td class="style3">Brown - lt</td>
+<td class="style3">Коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#c4863a" class="style3"></td>
+<td class="style3">435</td>
+<td class="style3">Brown - vy lt</td>
+<td class="style3">Коричневый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#c09557" class="style3"></td>
+<td class="style3">436</td>
+<td class="style3">Tan</td>
+<td class="style3">Желто-коричневый</td>
+</tr>
+<tr>
+<td bgcolor="#d9b879" class="style3"></td>
+<td class="style3">437</td>
+<td class="style3">Tan - lt</td>
+<td class="style3">Желто-коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f5d500" class="style3"></td>
+<td class="style3">444</td>
+<td class="style3">Lemon - dk</td>
+<td class="style3">Лимонный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#f0ed85" class="style3"></td>
+<td class="style3">445</td>
+<td class="style3">Lemon - lt</td>
+<td class="style3">Лимонный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#978b81" class="style3"></td>
+<td class="style3">451</td>
+<td class="style3">Shell Grey - dk</td>
+<td class="style3">Серых ракушек, т.</td>
+</tr>
+<tr>
+<td bgcolor="#bbaea6" class="style3"></td>
+<td class="style3">452</td>
+<td class="style3">Shell Grey - med</td>
+<td class="style3">Серых ракушек, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e3dcdb" class="style3"></td>
+<td class="style3">453</td>
+<td class="style3">Shell Grey - lt</td>
+<td class="style3">Серых ракушек, св.</td>
+</tr>
+<tr>
+<td bgcolor="#798738" class="style3"></td>
+<td class="style3">469</td>
+<td class="style3">Avocado Green</td>
+<td class="style3">Авокадо</td>
+</tr>
+<tr>
+<td bgcolor="#98a859" class="style3"></td>
+<td class="style3">470</td>
+<td class="style3">Avocado Green - lt</td>
+<td class="style3">Авокадо, св.</td>
+</tr>
+<tr>
+<td bgcolor="#929937" class="style3"></td>
+<td class="style3">471</td>
+<td class="style3">Avocado Green - vy lt</td>
+<td class="style3">Авокадо, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#dee077" class="style3"></td>
+<td class="style3">472</td>
+<td class="style3">Avocado Green - ultra lt</td>
+<td class="style3">Авокадо, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#98232c" class="style3"></td>
+<td class="style3">498</td>
+<td class="style3">Christmas Red - dk</td>
+<td class="style3">Рождественский красный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#14361e" class="style3"></td>
+<td class="style3">500</td>
+<td class="style3">Blue Green - vy dk</td>
+<td class="style3">Сине-зеленый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#496f5c" class="style3"></td>
+<td class="style3">501</td>
+<td class="style3">Blue Green - dk</td>
+<td class="style3">Сине-зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#799a83" class="style3"></td>
+<td class="style3">502</td>
+<td class="style3">Blue Green</td>
+<td class="style3">Сине-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#8ebea9" class="style3"></td>
+<td class="style3">503</td>
+<td class="style3">Blue Green - med</td>
+<td class="style3">Сине-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#d1e2d7" class="style3"></td>
+<td class="style3">504</td>
+<td class="style3">Blue Green - vy lt</td>
+<td class="style3">Сине-зеленый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#418253" class="style3"></td>
+<td class="style3">505</td>
+<td class="style3">Jade</td>
+<td class="style3">Нефрит</td>
+</tr>
+<tr>
+<td bgcolor="#166d92" class="style3"></td>
+<td class="style3">517</td>
+<td class="style3">Wedgwood - dk</td>
+<td class="style3">Пыльно-синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#6b9cb9" class="style3"></td>
+<td class="style3">518</td>
+<td class="style3">Wedgwood - lt</td>
+<td class="style3">Пыльно-синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#a8c6d8" class="style3"></td>
+<td class="style3">519</td>
+<td class="style3">Sky Blue</td>
+<td class="style3">Небесно голубой</td>
+</tr>
+<tr>
+<td bgcolor="#4f6035" class="style3"></td>
+<td class="style3">520</td>
+<td class="style3">Fern Green - dk</td>
+<td class="style3">Папоротниковый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#93a181" class="style3"></td>
+<td class="style3">522</td>
+<td class="style3">Fern Green</td>
+<td class="style3">Папоротниковый</td>
+</tr>
+<tr>
+<td bgcolor="#a5a888" class="style3"></td>
+<td class="style3">523</td>
+<td class="style3">Fern Green - lt</td>
+<td class="style3">Папоротниковый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#bec0a8" class="style3"></td>
+<td class="style3">524</td>
+<td class="style3">Fern Green - vy lt</td>
+<td class="style3">Папоротниковый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#504f50" class="style3"></td>
+<td class="style3">535</td>
+<td class="style3">Ash Grey - vy lt</td>
+<td class="style3">Пепельный, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#f0e3d4" class="style3"></td>
+<td class="style3">543</td>
+<td class="style3">Beige Brown - ultra vy lt</td>
+<td class="style3">Бежево-коричневый, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#541244" class="style3"></td>
+<td class="style3">550</td>
+<td class="style3">Violet - vy dk</td>
+<td class="style3">Фиолетовый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#7b3f6c" class="style3"></td>
+<td class="style3">552</td>
+<td class="style3">Violet - med</td>
+<td class="style3">Фиолетовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#a772a4" class="style3"></td>
+<td class="style3">553</td>
+<td class="style3">Violet</td>
+<td class="style3">Фиолетовый</td>
+</tr>
+<tr>
+<td bgcolor="#ae99b1" class="style3"></td>
+<td class="style3">554</td>
+<td class="style3">Violet - lt</td>
+<td class="style3">Фиолетовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#377557" class="style3"></td>
+<td class="style3">561</td>
+<td class="style3">Jade - vy dk</td>
+<td class="style3">Нефрит, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#599b6d" class="style3"></td>
+<td class="style3">562</td>
+<td class="style3">Jade - med</td>
+<td class="style3">Нефрит, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#87c39e" class="style3"></td>
+<td class="style3">563</td>
+<td class="style3">Jade - lt</td>
+<td class="style3">Нефрит, св.</td>
+</tr>
+<tr>
+<td bgcolor="#9cd0ab" class="style3"></td>
+<td class="style3">564</td>
+<td class="style3">Jade - vy lt</td>
+<td class="style3">Нефрит, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#68772d" class="style3"></td>
+<td class="style3">580</td>
+<td class="style3">Moss Green - dk</td>
+<td class="style3">Мох, т.</td>
+</tr>
+<tr>
+<td bgcolor="#9fa146" class="style3"></td>
+<td class="style3">581</td>
+<td class="style3">Moss Green</td>
+<td class="style3">Мох</td>
+</tr>
+<tr>
+<td bgcolor="#70aeb4" class="style3"></td>
+<td class="style3">597</td>
+<td class="style3">Turquoise</td>
+<td class="style3">Бирюзовый</td>
+</tr>
+<tr>
+<td bgcolor="#97ccca" class="style3"></td>
+<td class="style3">598</td>
+<td class="style3">Turquoise - lt</td>
+<td class="style3">Бирюзовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#bf1c48" class="style3"></td>
+<td class="style3">600</td>
+<td class="style3">Cranberry - vy dk</td>
+<td class="style3">Клюквенный, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#d34067" class="style3"></td>
+<td class="style3">601</td>
+<td class="style3">Cranberry - dk</td>
+<td class="style3">Клюквенный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#ca0b51" class="style3"></td>
+<td class="style3">602</td>
+<td class="style3">Cranberry - med</td>
+<td class="style3">Клюквенный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ef7ba1" class="style3"></td>
+<td class="style3">603</td>
+<td class="style3">Cranberry</td>
+<td class="style3">Клюквенный</td>
+</tr>
+<tr>
+<td bgcolor="#ec9ab9" class="style3"></td>
+<td class="style3">604</td>
+<td class="style3">Cranberry - lt</td>
+<td class="style3">Клюквенный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#faccdb" class="style3"></td>
+<td class="style3">605</td>
+<td class="style3">Cranberry - vy lt</td>
+<td class="style3">Клюквенный, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#ea592c" class="style3"></td>
+<td class="style3">606</td>
+<td class="style3">Bright Orange Red</td>
+<td class="style3">Яркий красно-оранжевый</td>
+</tr>
+<tr>
+<td bgcolor="#f06e46" class="style3"></td>
+<td class="style3">608</td>
+<td class="style3">Bright Orange</td>
+<td class="style3">Ярко оранжевый</td>
+</tr>
+<tr>
+<td bgcolor="#806638" class="style3"></td>
+<td class="style3">610</td>
+<td class="style3">Drab Brown - vy dk</td>
+<td class="style3">Тускло-коричневый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#9e9072" class="style3"></td>
+<td class="style3">611</td>
+<td class="style3">Drab Brown - dk</td>
+<td class="style3">Тускло-коричневый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#917d4a" class="style3"></td>
+<td class="style3">612</td>
+<td class="style3">Drab Brown - med</td>
+<td class="style3">Тускло-коричневый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#bcae83" class="style3"></td>
+<td class="style3">613</td>
+<td class="style3">Drab Brown - lt</td>
+<td class="style3">Тускло-коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#8c593e" class="style3"></td>
+<td class="style3">632</td>
+<td class="style3">Desert Sand - ultra vy dk</td>
+<td class="style3">Пустынного песка, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#938962" class="style3"></td>
+<td class="style3">640</td>
+<td class="style3">Beige Grey - vy dk</td>
+<td class="style3">Бежево-серый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#bab599" class="style3"></td>
+<td class="style3">642</td>
+<td class="style3">Beige Grey - dk</td>
+<td class="style3">Бежево-серый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d6d3c1" class="style3"></td>
+<td class="style3">644</td>
+<td class="style3">Beige Grey - med</td>
+<td class="style3">Бежево-серый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#747e65" class="style3"></td>
+<td class="style3">645</td>
+<td class="style3">Beaver Grey - vy dk</td>
+<td class="style3">Боброво-серый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#97978e" class="style3"></td>
+<td class="style3">646</td>
+<td class="style3">Beaver Grey - dk</td>
+<td class="style3">Боброво-серый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#abafa3" class="style3"></td>
+<td class="style3">647</td>
+<td class="style3">Beaver Grey - med</td>
+<td class="style3">Боброво-серый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#babfad" class="style3"></td>
+<td class="style3">648</td>
+<td class="style3">Beaver Grey - lt</td>
+<td class="style3">Боброво-серый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#d12627" class="style3"></td>
+<td class="style3">666</td>
+<td class="style3">Christmas Red - bright</td>
+<td class="style3">Рождественский красный, яркий</td>
+</tr>
+<tr>
+<td bgcolor="#eed7a1" class="style3"></td>
+<td class="style3">676</td>
+<td class="style3">Old Gold - lt</td>
+<td class="style3">Старого золота, св.</td>
+</tr>
+<tr>
+<td bgcolor="#ede0ba" class="style3"></td>
+<td class="style3">677</td>
+<td class="style3">Old Gold - vy lt</td>
+<td class="style3">Старого золота, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#af8334" class="style3"></td>
+<td class="style3">680</td>
+<td class="style3">Old Gold - dk</td>
+<td class="style3">Старого золота, т.</td>
+</tr>
+<tr>
+<td bgcolor="#015731" class="style3"></td>
+<td class="style3">699</td>
+<td class="style3">Christmas Green</td>
+<td class="style3">Рождественский зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#2e9148" class="style3"></td>
+<td class="style3">700</td>
+<td class="style3">Christmas Green - bright</td>
+<td class="style3">Рождественский зеленый, яркий</td>
+</tr>
+<tr>
+<td bgcolor="#007a3f" class="style3"></td>
+<td class="style3">701</td>
+<td class="style3">Christmas Green - lt</td>
+<td class="style3">Рождественский зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#59a052" class="style3"></td>
+<td class="style3">702</td>
+<td class="style3">Kelly Green</td>
+<td class="style3">Мутновато-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#81b85e" class="style3"></td>
+<td class="style3">703</td>
+<td class="style3">Chartreuse</td>
+<td class="style3">Бледно-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#bad765" class="style3"></td>
+<td class="style3">704</td>
+<td class="style3">Chartreuse - bright</td>
+<td class="style3">Бледно-зеленый, яркий</td>
+</tr>
+<tr>
+<td bgcolor="#e1e1d9" class="style3"></td>
+<td class="style3">712</td>
+<td class="style3">Cream</td>
+<td class="style3">Кремовый</td>
+</tr>
+<tr>
+<td bgcolor="#9f2d6f" class="style3"></td>
+<td class="style3">718</td>
+<td class="style3">Plum</td>
+<td class="style3">Сливовый</td>
+</tr>
+<tr>
+<td bgcolor="#ec6810" class="style3"></td>
+<td class="style3">720</td>
+<td class="style3">Orange Spice - dk</td>
+<td class="style3">Красновато-рыжеватый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#e4752b" class="style3"></td>
+<td class="style3">721</td>
+<td class="style3">Orange Spice - med</td>
+<td class="style3">Красновато-рыжеватый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#faa463" class="style3"></td>
+<td class="style3">722</td>
+<td class="style3">Orange Spice - lt</td>
+<td class="style3">Красновато-рыжеватый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#fad558" class="style3"></td>
+<td class="style3">725</td>
+<td class="style3">Topaz</td>
+<td class="style3">Топаз</td>
+</tr>
+<tr>
+<td bgcolor="#ffe35f" class="style3"></td>
+<td class="style3">726</td>
+<td class="style3">Topaz - lt</td>
+<td class="style3">Топаз, св.</td>
+</tr>
+<tr>
+<td bgcolor="#feee89" class="style3"></td>
+<td class="style3">727</td>
+<td class="style3">Topaz - vy lt</td>
+<td class="style3">Топаз, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#ecbf3b" class="style3"></td>
+<td class="style3">728</td>
+<td class="style3">Topaz</td>
+<td class="style3">Топаз</td>
+</tr>
+<tr>
+<td bgcolor="#cc993d" class="style3"></td>
+<td class="style3">729</td>
+<td class="style3">Old Gold - med</td>
+<td class="style3">Старого золота, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#746d2b" class="style3"></td>
+<td class="style3">730</td>
+<td class="style3">Olive Green - vy dk</td>
+<td class="style3">Оливково-зеленый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#837d2f" class="style3"></td>
+<td class="style3">731</td>
+<td class="style3">Olive Green - dk</td>
+<td class="style3">Оливково-зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#91852a" class="style3"></td>
+<td class="style3">732</td>
+<td class="style3">Olive Green</td>
+<td class="style3">Оливково-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#a6a036" class="style3"></td>
+<td class="style3">733</td>
+<td class="style3">Olive Green - med</td>
+<td class="style3">Оливково-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#d1c66d" class="style3"></td>
+<td class="style3">734</td>
+<td class="style3">Olive Green - lt</td>
+<td class="style3">Оливково-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#d9c38f" class="style3"></td>
+<td class="style3">738</td>
+<td class="style3">Tan - vy lt</td>
+<td class="style3">Желто-коричневый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#e5dab2" class="style3"></td>
+<td class="style3">739</td>
+<td class="style3">Tan - ultra vy lt</td>
+<td class="style3">Желто-коричневый, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#ff7600" class="style3"></td>
+<td class="style3">740</td>
+<td class="style3">Tangerine</td>
+<td class="style3">Мандариновый</td>
+</tr>
+<tr>
+<td bgcolor="#f69726" class="style3"></td>
+<td class="style3">741</td>
+<td class="style3">Tangerine - med</td>
+<td class="style3">Мандариновый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ffc33a" class="style3"></td>
+<td class="style3">742</td>
+<td class="style3">Tangerine - lt</td>
+<td class="style3">Мандариновый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#ffda5a" class="style3"></td>
+<td class="style3">743</td>
+<td class="style3">Yellow - med</td>
+<td class="style3">Желтый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ffe276" class="style3"></td>
+<td class="style3">744</td>
+<td class="style3">Yellow - pale</td>
+<td class="style3">Желтый, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#ffeda9" class="style3"></td>
+<td class="style3">745</td>
+<td class="style3">Yellow - lt pale</td>
+<td class="style3">Желтый, бледно св.</td>
+</tr>
+<tr>
+<td bgcolor="#f5f0df" class="style3"></td>
+<td class="style3">746</td>
+<td class="style3">Off White</td>
+<td class="style3">Белесый</td>
+</tr>
+<tr>
+<td bgcolor="#d3e9e7" class="style3"></td>
+<td class="style3">747</td>
+<td class="style3">Sky Blue - vy lt</td>
+<td class="style3">Небесно голубой, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#efc1aa" class="style3"></td>
+<td class="style3">754</td>
+<td class="style3">Peach - lt</td>
+<td class="style3">Персиковый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#eac0b4" class="style3"></td>
+<td class="style3">758</td>
+<td class="style3">Terra Cotta - vy lt</td>
+<td class="style3">Терракотовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#e29690" class="style3"></td>
+<td class="style3">760</td>
+<td class="style3">Salmon</td>
+<td class="style3">Лососевый</td>
+</tr>
+<tr>
+<td bgcolor="#f4c4c1" class="style3"></td>
+<td class="style3">761</td>
+<td class="style3">Salmon - lt</td>
+<td class="style3">Лососевый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#e9e9eb" class="style3"></td>
+<td class="style3">762</td>
+<td class="style3">Pearl Grey - vy lt</td>
+<td class="style3">Жемчужно серый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#f3f6d4" class="style3"></td>
+<td class="style3">772</td>
+<td class="style3">Yellow Green - vy lt</td>
+<td class="style3">Желто-зеленый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#ceddea" class="style3"></td>
+<td class="style3">775</td>
+<td class="style3">Baby Blue - vy lt</td>
+<td class="style3">Нежно голубой, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#eeaeb0" class="style3"></td>
+<td class="style3">776</td>
+<td class="style3">Pink - med</td>
+<td class="style3">Розовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#8a373b" class="style3"></td>
+<td class="style3">777</td>
+<td class="style3">Raspberry - vy dk</td>
+<td class="style3">Малина оч.т</td>
+</tr>
+<tr>
+<td bgcolor="#ddb3b1" class="style3"></td>
+<td class="style3">778</td>
+<td class="style3">Antique Mauve - vy lt</td>
+<td class="style3">Античный розовато-лиловый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#6d5748" class="style3"></td>
+<td class="style3">779</td>
+<td class="style3">Cocoa - dk</td>
+<td class="style3">Какао т.</td>
+</tr>
+<tr>
+<td bgcolor="#936626" class="style3"></td>
+<td class="style3">780</td>
+<td class="style3">Topaz - ultra vy dk</td>
+<td class="style3">Топаз, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#ba8225" class="style3"></td>
+<td class="style3">781</td>
+<td class="style3">Topaz - vy dk</td>
+<td class="style3">Топаз, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#b38132" class="style3"></td>
+<td class="style3">782</td>
+<td class="style3">Topaz - dk</td>
+<td class="style3">Топаз, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d19d2f" class="style3"></td>
+<td class="style3">783</td>
+<td class="style3">Topaz - med</td>
+<td class="style3">Топаз, ср.т.</td>
+</tr>
+<tr>
+<td bgcolor="#161151" class="style3"></td>
+<td class="style3">791</td>
+<td class="style3">Cornflower Blue - vy dk</td>
+<td class="style3">Васильковый, кобальтовый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#7971a0" class="style3"></td>
+<td class="style3">792</td>
+<td class="style3">Cornflower Blue - dk</td>
+<td class="style3">Васильковый, кобальтовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#686d8d" class="style3"></td>
+<td class="style3">793</td>
+<td class="style3">Cornflower Blue - med</td>
+<td class="style3">Васильковый, кобальтовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#8ea7c0" class="style3"></td>
+<td class="style3">794</td>
+<td class="style3">Cornflower Blue - lt</td>
+<td class="style3">Васильковый, кобальтовый, св.т.</td>
+</tr>
+<tr>
+<td bgcolor="#181f66" class="style3"></td>
+<td class="style3">796</td>
+<td class="style3">Royal Blue - dk</td>
+<td class="style3">Чисто синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#2c4180" class="style3"></td>
+<td class="style3">797</td>
+<td class="style3">Royal Blue</td>
+<td class="style3">Чисто синий</td>
+</tr>
+<tr>
+<td bgcolor="#445997" class="style3"></td>
+<td class="style3">798</td>
+<td class="style3">Delft - dk</td>
+<td class="style3">Фарфоровый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#6e8db5" class="style3"></td>
+<td class="style3">799</td>
+<td class="style3">Delft - med</td>
+<td class="style3">Фарфоровый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c1d3df" class="style3"></td>
+<td class="style3">800</td>
+<td class="style3">Delft - pale</td>
+<td class="style3">Фарфоровый, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#63461f" class="style3"></td>
+<td class="style3">801</td>
+<td class="style3">Coffee Brown - dk</td>
+<td class="style3">Кофейный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#437490" class="style3"></td>
+<td class="style3">806</td>
+<td class="style3">Peacock Blue - dk</td>
+<td class="style3">Переливчатый синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#70a8b3" class="style3"></td>
+<td class="style3">807</td>
+<td class="style3">Peacock Blue</td>
+<td class="style3">Переливчатый синий</td>
+</tr>
+<tr>
+<td bgcolor="#6c91c0" class="style3"></td>
+<td class="style3">809</td>
+<td class="style3">Delft</td>
+<td class="style3">Фарфоровый</td>
+</tr>
+<tr>
+<td bgcolor="#91b4ce" class="style3"></td>
+<td class="style3">813</td>
+<td class="style3">Blue - lt</td>
+<td class="style3">Синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#711f2e" class="style3"></td>
+<td class="style3">814</td>
+<td class="style3">Garnet - dk</td>
+<td class="style3">Гранатовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#9d3030" class="style3"></td>
+<td class="style3">815</td>
+<td class="style3">Garnet - med</td>
+<td class="style3">Гранатовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#811024" class="style3"></td>
+<td class="style3">816</td>
+<td class="style3">Garnet</td>
+<td class="style3">Гранатовый</td>
+</tr>
+<tr>
+<td bgcolor="#bd2e2e" class="style3"></td>
+<td class="style3">817</td>
+<td class="style3">Coral Red - vy dk</td>
+<td class="style3">Кораллово красный, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#f9d6dd" class="style3"></td>
+<td class="style3">818</td>
+<td class="style3">Baby Pink</td>
+<td class="style3">Нежно розовый</td>
+</tr>
+<tr>
+<td bgcolor="#fbe2df" class="style3"></td>
+<td class="style3">819</td>
+<td class="style3">Baby Pink - lt</td>
+<td class="style3">Нежно розовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#190f60" class="style3"></td>
+<td class="style3">820</td>
+<td class="style3">Royal Blue - vy dk</td>
+<td class="style3">Чисто синий, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#e2dfd3" class="style3"></td>
+<td class="style3">822</td>
+<td class="style3">Beige Grey - lt</td>
+<td class="style3">Бежево-серый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#124477" class="style3"></td>
+<td class="style3">823</td>
+<td class="style3">Navy Blue - dk</td>
+<td class="style3">Темно-синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#3b6292" class="style3"></td>
+<td class="style3">824</td>
+<td class="style3">Blue - vy dk</td>
+<td class="style3">Синий, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#366390" class="style3"></td>
+<td class="style3">825</td>
+<td class="style3">Blue - dk</td>
+<td class="style3">Синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#5a82a2" class="style3"></td>
+<td class="style3">826</td>
+<td class="style3">Blue - med</td>
+<td class="style3">Синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b4d3e3" class="style3"></td>
+<td class="style3">827</td>
+<td class="style3">Blue - vy lt</td>
+<td class="style3">Синий, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#cae2eb" class="style3"></td>
+<td class="style3">828</td>
+<td class="style3">Blue - ultra vy lt</td>
+<td class="style3">Синий, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#6f5422" class="style3"></td>
+<td class="style3">829</td>
+<td class="style3">Golden Olive - vy dk</td>
+<td class="style3">Оливково-золотой, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#806c26" class="style3"></td>
+<td class="style3">830</td>
+<td class="style3">Golden Olive - dk</td>
+<td class="style3">Оливково-золотой, т.</td>
+</tr>
+<tr>
+<td bgcolor="#957b2f" class="style3"></td>
+<td class="style3">831</td>
+<td class="style3">Golden Olive - med</td>
+<td class="style3">Оливково-золотой, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b19a3f" class="style3"></td>
+<td class="style3">832</td>
+<td class="style3">Golden Olive</td>
+<td class="style3">Оливково-золотой</td>
+</tr>
+<tr>
+<td bgcolor="#bfa43a" class="style3"></td>
+<td class="style3">833</td>
+<td class="style3">Golden Olive - lt</td>
+<td class="style3">Оливково-золотой, св.</td>
+</tr>
+<tr>
+<td bgcolor="#cab751" class="style3"></td>
+<td class="style3">834</td>
+<td class="style3">Golden Olive - vy lt</td>
+<td class="style3">Оливково-золотой, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#573c2a" class="style3"></td>
+<td class="style3">838</td>
+<td class="style3">Beige Brown - vy dk</td>
+<td class="style3">Бежево-коричневый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#684e37" class="style3"></td>
+<td class="style3">839</td>
+<td class="style3">Beige Brown - dk</td>
+<td class="style3">Бежево-коричневый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#977e65" class="style3"></td>
+<td class="style3">840</td>
+<td class="style3">Beige Brown - med</td>
+<td class="style3">Бежево-коричневый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b39f8c" class="style3"></td>
+<td class="style3">841</td>
+<td class="style3">Beige Brown - lt</td>
+<td class="style3">Бежево-коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#cdb9a4" class="style3"></td>
+<td class="style3">842</td>
+<td class="style3">Beige Brown - vy lt</td>
+<td class="style3">Бежево-коричневый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#6c6e58" class="style3"></td>
+<td class="style3">844</td>
+<td class="style3">Beaver Grey - ultra dk</td>
+<td class="style3">Боброво-серый, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#775820" class="style3"></td>
+<td class="style3">869</td>
+<td class="style3">Hazelnut Brown - vy dk</td>
+<td class="style3">Фундука, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#043810" class="style3"></td>
+<td class="style3">890</td>
+<td class="style3">Pistachio Green - ultra dk</td>
+<td class="style3">Фисташково зеленый, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#ef4949" class="style3"></td>
+<td class="style3">891</td>
+<td class="style3">Carnation - dk</td>
+<td class="style3">Гвоздичный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#f85b64" class="style3"></td>
+<td class="style3">892</td>
+<td class="style3">Carnation - med</td>
+<td class="style3">Гвоздичный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fc6a84" class="style3"></td>
+<td class="style3">893</td>
+<td class="style3">Carnation - lt</td>
+<td class="style3">Гвоздичный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f999a5" class="style3"></td>
+<td class="style3">894</td>
+<td class="style3">Carnation - vy lt</td>
+<td class="style3">Гвоздичный, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#29542f" class="style3"></td>
+<td class="style3">895</td>
+<td class="style3">Hunter Green - vy dk</td>
+<td class="style3">Защитный, грязновато зеленый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#502f1b" class="style3"></td>
+<td class="style3">898</td>
+<td class="style3">Coffee Brown - vy dk</td>
+<td class="style3">Кофейный, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#ee8593" class="style3"></td>
+<td class="style3">899</td>
+<td class="style3">Rose - med</td>
+<td class="style3">Розы, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#d45d28" class="style3"></td>
+<td class="style3">900</td>
+<td class="style3">Burnt Orange - dk</td>
+<td class="style3">Оранжево-жженный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#6b3b33" class="style3"></td>
+<td class="style3">902</td>
+<td class="style3">Garnet - vy dk</td>
+<td class="style3">Гранатовый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#4f6c33" class="style3"></td>
+<td class="style3">904</td>
+<td class="style3">Parrot Green - vy dk</td>
+<td class="style3">Зеленый попугаевый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#759a3e" class="style3"></td>
+<td class="style3">905</td>
+<td class="style3">Parrot Green - dk</td>
+<td class="style3">Зеленый попугаевый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#82ae44" class="style3"></td>
+<td class="style3">906</td>
+<td class="style3">Parrot Green - med</td>
+<td class="style3">Зеленый попугаевый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#a9c33e" class="style3"></td>
+<td class="style3">907</td>
+<td class="style3">Parrot Green - lt</td>
+<td class="style3">Зеленый попугаевый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#00793b" class="style3"></td>
+<td class="style3">909</td>
+<td class="style3">Emerald Green - vy dk</td>
+<td class="style3">Изумрудный, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#008c4c" class="style3"></td>
+<td class="style3">910</td>
+<td class="style3">Emerald Green - dk</td>
+<td class="style3">Изумрудный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#40a756" class="style3"></td>
+<td class="style3">911</td>
+<td class="style3">Emerald Green - med</td>
+<td class="style3">Изумрудный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#58a96b" class="style3"></td>
+<td class="style3">912</td>
+<td class="style3">Emerald Green - lt</td>
+<td class="style3">Изумрудный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#88c78d" class="style3"></td>
+<td class="style3">913</td>
+<td class="style3">Nile Green - med</td>
+<td class="style3">Мутно-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#800137" class="style3"></td>
+<td class="style3">915</td>
+<td class="style3">Plum - dk</td>
+<td class="style3">Сливовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#832a58" class="style3"></td>
+<td class="style3">917</td>
+<td class="style3">Plum - med</td>
+<td class="style3">Сливовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#8c3b1a" class="style3"></td>
+<td class="style3">918</td>
+<td class="style3">Red Copper - dk</td>
+<td class="style3">Красной меди, т.</td>
+</tr>
+<tr>
+<td bgcolor="#9b3b1b" class="style3"></td>
+<td class="style3">919</td>
+<td class="style3">Red Copper</td>
+<td class="style3">Красной меди</td>
+</tr>
+<tr>
+<td bgcolor="#a74f2a" class="style3"></td>
+<td class="style3">920</td>
+<td class="style3">Copper - med</td>
+<td class="style3">Медный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c36b29" class="style3"></td>
+<td class="style3">921</td>
+<td class="style3">Copper</td>
+<td class="style3">Медный</td>
+</tr>
+<tr>
+<td bgcolor="#d6834d" class="style3"></td>
+<td class="style3">922</td>
+<td class="style3">Copper - lt</td>
+<td class="style3">Медный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#42605c" class="style3"></td>
+<td class="style3">924</td>
+<td class="style3">Grey Green - vy dk</td>
+<td class="style3">Серо-зеленый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#789899" class="style3"></td>
+<td class="style3">926</td>
+<td class="style3">Grey Green - med</td>
+<td class="style3">Серо-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c5d2cf" class="style3"></td>
+<td class="style3">927</td>
+<td class="style3">Grey Green - lt</td>
+<td class="style3">Серо-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#e5eae9" class="style3"></td>
+<td class="style3">928</td>
+<td class="style3">Grey Green - vy lt</td>
+<td class="style3">Серо-зеленый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#435e67" class="style3"></td>
+<td class="style3">930</td>
+<td class="style3">Antique Blue - dk</td>
+<td class="style3">Античный синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#678997" class="style3"></td>
+<td class="style3">931</td>
+<td class="style3">Antique Blue - med</td>
+<td class="style3">Античный синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#8faeb9" class="style3"></td>
+<td class="style3">932</td>
+<td class="style3">Antique Blue - lt</td>
+<td class="style3">Античный синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#4d4c34" class="style3"></td>
+<td class="style3">934</td>
+<td class="style3">Black Avocado Green - dk</td>
+<td class="style3">Черно-зеленого авокадо, т.</td>
+</tr>
+<tr>
+<td bgcolor="#4b5035" class="style3"></td>
+<td class="style3">935</td>
+<td class="style3">Black Avocado Green - med</td>
+<td class="style3">Черно-зеленого авокадо, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#5d5c2b" class="style3"></td>
+<td class="style3">936</td>
+<td class="style3">Avocado Green - vy dk</td>
+<td class="style3">Авокадо, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#4f5925" class="style3"></td>
+<td class="style3">937</td>
+<td class="style3">Avocado Green - med</td>
+<td class="style3">Авокадо, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#3b2811" class="style3"></td>
+<td class="style3">938</td>
+<td class="style3">Coffee Brown - ultra dk</td>
+<td class="style3">Кофейный, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#02101c" class="style3"></td>
+<td class="style3">939</td>
+<td class="style3">Navy Blue - vy dk</td>
+<td class="style3">Темно-синий, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#009a7b" class="style3"></td>
+<td class="style3">943</td>
+<td class="style3">Aquamarine - med</td>
+<td class="style3">Аквамарин, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e3be8e" class="style3"></td>
+<td class="style3">945</td>
+<td class="style3">Tawny</td>
+<td class="style3">Рыжевато-коричневый</td>
+</tr>
+<tr>
+<td bgcolor="#e15729" class="style3"></td>
+<td class="style3">946</td>
+<td class="style3">Burnt Orange - med</td>
+<td class="style3">Оранжево-жженный, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#f26922" class="style3"></td>
+<td class="style3">947</td>
+<td class="style3">Burnt Orange</td>
+<td class="style3">Оранжево-жженный</td>
+</tr>
+<tr>
+<td bgcolor="#feebe2" class="style3"></td>
+<td class="style3">948</td>
+<td class="style3">Peach - vy lt</td>
+<td class="style3">Персиковый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#e7ceb9" class="style3"></td>
+<td class="style3">950</td>
+<td class="style3">Desert Sand - lt</td>
+<td class="style3">Пустынного песка, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f2e0ce" class="style3"></td>
+<td class="style3">951</td>
+<td class="style3">Tawny - lt</td>
+<td class="style3">Рыжевато-коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#abd58b" class="style3"></td>
+<td class="style3">954</td>
+<td class="style3">Nile Green</td>
+<td class="style3">Мутно-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#b4e8b3" class="style3"></td>
+<td class="style3">955</td>
+<td class="style3">Nile Green - lt</td>
+<td class="style3">Мутно-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#ff7a90" class="style3"></td>
+<td class="style3">956</td>
+<td class="style3">Geranium</td>
+<td class="style3">Герань</td>
+</tr>
+<tr>
+<td bgcolor="#f9afb7" class="style3"></td>
+<td class="style3">957</td>
+<td class="style3">Geranium - pale</td>
+<td class="style3">Герань, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#51c0bb" class="style3"></td>
+<td class="style3">958</td>
+<td class="style3">Seagreen - dk</td>
+<td class="style3">Морской воды, т.</td>
+</tr>
+<tr>
+<td bgcolor="#8fd3d4" class="style3"></td>
+<td class="style3">959</td>
+<td class="style3">Seagreen - med</td>
+<td class="style3">Морской воды, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#df6877" class="style3"></td>
+<td class="style3">961</td>
+<td class="style3">Dusty Rose - dk</td>
+<td class="style3">Пыльной розы, т.</td>
+</tr>
+<tr>
+<td bgcolor="#f08d9f" class="style3"></td>
+<td class="style3">962</td>
+<td class="style3">Dusty Rose - med</td>
+<td class="style3">Пыльной розы, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fad0d5" class="style3"></td>
+<td class="style3">963</td>
+<td class="style3">Dusty Rose - ultra vy lt</td>
+<td class="style3">Пыльной розы, очень св.</td>
+</tr>
+<tr>
+<td bgcolor="#9cd3cc" class="style3"></td>
+<td class="style3">964</td>
+<td class="style3">Seagreen - lt</td>
+<td class="style3">Морской воды, св.</td>
+</tr>
+<tr>
+<td bgcolor="#bbd7ae" class="style3"></td>
+<td class="style3">966</td>
+<td class="style3">Baby Green - med</td>
+<td class="style3">Нежно зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fbdbcd" class="style3"></td>
+<td class="style3">967</td>
+<td class="style3">Apricot - vy lt</td>
+<td class="style3">Абрикосовый оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#ff781e" class="style3"></td>
+<td class="style3">970</td>
+<td class="style3">Pumpkin - bright</td>
+<td class="style3">Тыквенный, яркий</td>
+</tr>
+<tr>
+<td bgcolor="#fc7e0c" class="style3"></td>
+<td class="style3">971</td>
+<td class="style3">Pumpkin</td>
+<td class="style3">Тыквенный</td>
+</tr>
+<tr>
+<td bgcolor="#ffb401" class="style3"></td>
+<td class="style3">972</td>
+<td class="style3">Canary - deep</td>
+<td class="style3">Канареечный, глубокий</td>
+</tr>
+<tr>
+<td bgcolor="#ffe21a" class="style3"></td>
+<td class="style3">973</td>
+<td class="style3">Canary - bright</td>
+<td class="style3">Канареечный, яркий</td>
+</tr>
+<tr>
+<td bgcolor="#945c2d" class="style3"></td>
+<td class="style3">975</td>
+<td class="style3">Golden Brown - dk</td>
+<td class="style3">Золотисто-коричневый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#e6973f" class="style3"></td>
+<td class="style3">976</td>
+<td class="style3">Golden Brown - med</td>
+<td class="style3">Золотисто-коричневый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e59034" class="style3"></td>
+<td class="style3">977</td>
+<td class="style3">Golden Brown - lt</td>
+<td class="style3">Золотисто-коричневый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#1f561f" class="style3"></td>
+<td class="style3">986</td>
+<td class="style3">Forest Green - vy dk</td>
+<td class="style3">Зеленый лесной, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#568357" class="style3"></td>
+<td class="style3">987</td>
+<td class="style3">Forest Green - dk</td>
+<td class="style3">Зеленый лесной, т.</td>
+</tr>
+<tr>
+<td bgcolor="#76996c" class="style3"></td>
+<td class="style3">988</td>
+<td class="style3">Forest Green - med</td>
+<td class="style3">Зеленый лесной, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#87a462" class="style3"></td>
+<td class="style3">989</td>
+<td class="style3">Forest Green</td>
+<td class="style3">Зеленый лесной</td>
+</tr>
+<tr>
+<td bgcolor="#176a59" class="style3"></td>
+<td class="style3">991</td>
+<td class="style3">Aquamarine - dk</td>
+<td class="style3">Аквамарин, т.</td>
+</tr>
+<tr>
+<td bgcolor="#6cbfa8" class="style3"></td>
+<td class="style3">992</td>
+<td class="style3">Aquamarine - lt</td>
+<td class="style3">Аквамарин, св.</td>
+</tr>
+<tr>
+<td bgcolor="#8ec2b3" class="style3"></td>
+<td class="style3">993</td>
+<td class="style3">Aquamarine - vy lt</td>
+<td class="style3">Аквамарин, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#0064b0" class="style3"></td>
+<td class="style3">995</td>
+<td class="style3">Electric Blue - dk</td>
+<td class="style3">Электрик синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#57baf5" class="style3"></td>
+<td class="style3">996</td>
+<td class="style3">Electric Blue - med</td>
+<td class="style3">Электрик синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#635f2f" class="style3"></td>
+<td class="style3">3011</td>
+<td class="style3">Khaki Green - dk</td>
+<td class="style3">Хаки, т.</td>
+</tr>
+<tr>
+<td bgcolor="#9b9648" class="style3"></td>
+<td class="style3">3012</td>
+<td class="style3">Khaki Green - med</td>
+<td class="style3">Хаки, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#999c6c" class="style3"></td>
+<td class="style3">3013</td>
+<td class="style3">Khaki Green - lt</td>
+<td class="style3">Хаки, св.</td>
+</tr>
+<tr>
+<td bgcolor="#3b2e08" class="style3"></td>
+<td class="style3">3021</td>
+<td class="style3">Brown Grey - vy dk</td>
+<td class="style3">Коричнево-серый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#938e6e" class="style3"></td>
+<td class="style3">3022</td>
+<td class="style3">Brown Grey - med</td>
+<td class="style3">Коричнево-серый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b2ae95" class="style3"></td>
+<td class="style3">3023</td>
+<td class="style3">Brown Grey - lt</td>
+<td class="style3">Коричнево-серый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#dcdcd7" class="style3"></td>
+<td class="style3">3024</td>
+<td class="style3">Brown Grey - vy lt</td>
+<td class="style3">Коричнево-серый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#442e10" class="style3"></td>
+<td class="style3">3031</td>
+<td class="style3">Mocha Brown - vy dk</td>
+<td class="style3">Мокка, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#ada183" class="style3"></td>
+<td class="style3">3032</td>
+<td class="style3">Mocha Brown - med</td>
+<td class="style3">Мокка, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#d7d0c2" class="style3"></td>
+<td class="style3">3033</td>
+<td class="style3">Mocha Brown - vy lt</td>
+<td class="style3">Мокка, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#966e6e" class="style3"></td>
+<td class="style3">3041</td>
+<td class="style3">Antique Violet - med</td>
+<td class="style3">Антично фиолетовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ccc1d0" class="style3"></td>
+<td class="style3">3042</td>
+<td class="style3">Antique Violet - lt</td>
+<td class="style3">Антично фиолетовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#b19563" class="style3"></td>
+<td class="style3">3045</td>
+<td class="style3">Yellow Beige - dk</td>
+<td class="style3">Желтовато-бежевый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#ccbc7d" class="style3"></td>
+<td class="style3">3046</td>
+<td class="style3">Yellow Beige - med</td>
+<td class="style3">Желтовато-бежевый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#ececd2" class="style3"></td>
+<td class="style3">3047</td>
+<td class="style3">Yellow Beige - lt</td>
+<td class="style3">Желтовато-бежевый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#6d6f42" class="style3"></td>
+<td class="style3">3051</td>
+<td class="style3">Green Grey - dk</td>
+<td class="style3">Серо-зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#899770" class="style3"></td>
+<td class="style3">3052</td>
+<td class="style3">Green Grey - med</td>
+<td class="style3">Серо-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#bac28b" class="style3"></td>
+<td class="style3">3053</td>
+<td class="style3">Green Grey</td>
+<td class="style3">Серо-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#cda072" class="style3"></td>
+<td class="style3">3064</td>
+<td class="style3">Desert Sand</td>
+<td class="style3">Пустынного песка</td>
+</tr>
+<tr>
+<td bgcolor="#e3e6dc" class="style3"></td>
+<td class="style3">3072</td>
+<td class="style3">Beaver Grey - vy lt</td>
+<td class="style3">Боброво-серый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#fff3ad" class="style3"></td>
+<td class="style3">3078</td>
+<td class="style3">Golden Yellow - vy lt</td>
+<td class="style3">Желтый золотой, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#c6d3e1" class="style3"></td>
+<td class="style3">3325</td>
+<td class="style3">Baby Blue - lt</td>
+<td class="style3">Нежно голубой, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f7b4b7" class="style3"></td>
+<td class="style3">3326</td>
+<td class="style3">Rose - lt</td>
+<td class="style3">Розы, св.</td>
+</tr>
+<tr>
+<td bgcolor="#c36154" class="style3"></td>
+<td class="style3">3328</td>
+<td class="style3">Salmon - dk</td>
+<td class="style3">Лососевый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#f38351" class="style3"></td>
+<td class="style3">3340</td>
+<td class="style3">Apricot - med</td>
+<td class="style3">Абрикосовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fbbe9d" class="style3"></td>
+<td class="style3">3341</td>
+<td class="style3">Apricot</td>
+<td class="style3">Абрикосовый</td>
+</tr>
+<tr>
+<td bgcolor="#486131" class="style3"></td>
+<td class="style3">3345</td>
+<td class="style3">Hunter Green - dk</td>
+<td class="style3">Защитный, грязновато зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#6a823d" class="style3"></td>
+<td class="style3">3346</td>
+<td class="style3">Hunter Green</td>
+<td class="style3">Защитный, грязновато зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#78983b" class="style3"></td>
+<td class="style3">3347</td>
+<td class="style3">Yellow Green - med</td>
+<td class="style3">Желто-зеленый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e3ee9f" class="style3"></td>
+<td class="style3">3348</td>
+<td class="style3">Yellow Green - lt</td>
+<td class="style3">Желто-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#b95569" class="style3"></td>
+<td class="style3">3350</td>
+<td class="style3">Dusty Rose - ultra dk</td>
+<td class="style3">Пыльной розы, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#e3a5aa" class="style3"></td>
+<td class="style3">3354</td>
+<td class="style3">Dusty Rose - lt</td>
+<td class="style3">Пыльной розы, св.</td>
+</tr>
+<tr>
+<td bgcolor="#2e3d1a" class="style3"></td>
+<td class="style3">3362</td>
+<td class="style3">Pine Green - dk</td>
+<td class="style3">Сосновый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#72885f" class="style3"></td>
+<td class="style3">3363</td>
+<td class="style3">Pine Green - med</td>
+<td class="style3">Сосновый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#85905c" class="style3"></td>
+<td class="style3">3364</td>
+<td class="style3">Pine Green</td>
+<td class="style3">Сосновый</td>
+</tr>
+<tr>
+<td bgcolor="#2d1705" class="style3"></td>
+<td class="style3">3371</td>
+<td class="style3">Black Brown</td>
+<td class="style3">Черно-коричневый</td>
+</tr>
+<tr>
+<td bgcolor="#b34e8c" class="style3"></td>
+<td class="style3">3607</td>
+<td class="style3">Plum - lt</td>
+<td class="style3">Сливовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#c07ba3" class="style3"></td>
+<td class="style3">3608</td>
+<td class="style3">Plum - vy lt</td>
+<td class="style3">Сливовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#e9afd3" class="style3"></td>
+<td class="style3">3609</td>
+<td class="style3">Plum - ultra lt</td>
+<td class="style3">Сливовый, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#7d3248" class="style3"></td>
+<td class="style3">3685</td>
+<td class="style3">Mauve - vy dk</td>
+<td class="style3">Розовато-лиловый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#c2596d" class="style3"></td>
+<td class="style3">3687</td>
+<td class="style3">Mauve</td>
+<td class="style3">Розовато-лиловый</td>
+</tr>
+<tr>
+<td bgcolor="#e6849a" class="style3"></td>
+<td class="style3">3688</td>
+<td class="style3">Mauve - med</td>
+<td class="style3">Розовато-лиловый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e8b9c5" class="style3"></td>
+<td class="style3">3689</td>
+<td class="style3">Mauve - lt</td>
+<td class="style3">Розовато-лиловый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f65d5b" class="style3"></td>
+<td class="style3">3705</td>
+<td class="style3">Melon - dk</td>
+<td class="style3">Дыни, т.</td>
+</tr>
+<tr>
+<td bgcolor="#ff988e" class="style3"></td>
+<td class="style3">3706</td>
+<td class="style3">Melon - med</td>
+<td class="style3">Дыни, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fcbbc1" class="style3"></td>
+<td class="style3">3708</td>
+<td class="style3">Melon - lt</td>
+<td class="style3">Дыни, св.</td>
+</tr>
+<tr>
+<td bgcolor="#db7d73" class="style3"></td>
+<td class="style3">3712</td>
+<td class="style3">Salmon - med</td>
+<td class="style3">Лососевый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#fcdcda" class="style3"></td>
+<td class="style3">3713</td>
+<td class="style3">Salmon - vy lt</td>
+<td class="style3">Лососевый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#fcb1ba" class="style3"></td>
+<td class="style3">3716</td>
+<td class="style3">Dusty Rose - vy lt</td>
+<td class="style3">Пыльной розы, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#aa5048" class="style3"></td>
+<td class="style3">3721</td>
+<td class="style3">Shell Pink - dk</td>
+<td class="style3">Розовых ракушек, т.</td>
+</tr>
+<tr>
+<td bgcolor="#a45d55" class="style3"></td>
+<td class="style3">3722</td>
+<td class="style3">Shell Pink - med</td>
+<td class="style3">Розовых ракушек, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#874c49" class="style3"></td>
+<td class="style3">3726</td>
+<td class="style3">Antique Mauve - dk</td>
+<td class="style3">Античный розовато-лиловый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#e6bcc3" class="style3"></td>
+<td class="style3">3727</td>
+<td class="style3">Antique Mauve - lt</td>
+<td class="style3">Античный розовато-лиловый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#c65a6b" class="style3"></td>
+<td class="style3">3731</td>
+<td class="style3">Dusty Rose - vy dk</td>
+<td class="style3">Пыльной розы, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#eda6ac" class="style3"></td>
+<td class="style3">3733</td>
+<td class="style3">Dusty Rose</td>
+<td class="style3">Пыльной розы</td>
+</tr>
+<tr>
+<td bgcolor="#72535a" class="style3"></td>
+<td class="style3">3740</td>
+<td class="style3">Antique Violet - dk</td>
+<td class="style3">Антично фиолетовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#c7bac7" class="style3"></td>
+<td class="style3">3743</td>
+<td class="style3">Antique Violet - vy lt</td>
+<td class="style3">Антично фиолетовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#8572a4" class="style3"></td>
+<td class="style3">3746</td>
+<td class="style3">Blue Violet - dk</td>
+<td class="style3">Сине-фиолетовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#bcc0d8" class="style3"></td>
+<td class="style3">3747</td>
+<td class="style3">Blue Violet - vy lt</td>
+<td class="style3">Сине-фиолетовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#444d58" class="style3"></td>
+<td class="style3">3750</td>
+<td class="style3">Antique Blue - vy dk</td>
+<td class="style3">Античный синий, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#bbc8d6" class="style3"></td>
+<td class="style3">3752</td>
+<td class="style3">Antique Blue - vy lt</td>
+<td class="style3">Античный синий, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#ccd5da" class="style3"></td>
+<td class="style3">3753</td>
+<td class="style3">Antique Blue - ultra vy lt</td>
+<td class="style3">Античный синий, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#9fbbd5" class="style3"></td>
+<td class="style3">3755</td>
+<td class="style3">Baby Blue</td>
+<td class="style3">Нежно голубой</td>
+</tr>
+<tr>
+<td bgcolor="#e8edf3" class="style3"></td>
+<td class="style3">3756</td>
+<td class="style3">Baby Blue - ultra vy lt</td>
+<td class="style3">Нежно голубой, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#4f819d" class="style3"></td>
+<td class="style3">3760</td>
+<td class="style3">Wedgwood - med</td>
+<td class="style3">Пыльно-синий, ср. (гжель)</td>
+</tr>
+<tr>
+<td bgcolor="#b8dae9" class="style3"></td>
+<td class="style3">3761</td>
+<td class="style3">Sky Blue - lt</td>
+<td class="style3">Небесно голубой, св.</td>
+</tr>
+<tr>
+<td bgcolor="#296e87" class="style3"></td>
+<td class="style3">3765</td>
+<td class="style3">Peacock Blue - vy dk</td>
+<td class="style3">Переливчатый синий, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#7cbec6" class="style3"></td>
+<td class="style3">3766</td>
+<td class="style3">Peacock Blue - lt</td>
+<td class="style3">Переливчатый синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#6b8084" class="style3"></td>
+<td class="style3">3768</td>
+<td class="style3">Grey Green - dk</td>
+<td class="style3">Серо-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#f8eedc" class="style3"></td>
+<td class="style3">3770</td>
+<td class="style3">Tawny - vy lt</td>
+<td class="style3">Рыжевато-коричневый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#e8b58f" class="style3"></td>
+<td class="style3">3771</td>
+<td class="style3">Terra Cotta - ultra vy lt</td>
+<td class="style3">Терракотовый, ультра оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#b8846c" class="style3"></td>
+<td class="style3">3772</td>
+<td class="style3">Desert Sand - vy dk</td>
+<td class="style3">Пустынного песка, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#d8b39d" class="style3"></td>
+<td class="style3">3773</td>
+<td class="style3">Desert Sand - med</td>
+<td class="style3">Пустынного песка, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#f6e1d0" class="style3"></td>
+<td class="style3">3774</td>
+<td class="style3">Desert Sand - vy lt</td>
+<td class="style3">Пустынного песка, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#c27d45" class="style3"></td>
+<td class="style3">3776</td>
+<td class="style3">Mahogany - lt</td>
+<td class="style3">Красного дерева, св.</td>
+</tr>
+<tr>
+<td bgcolor="#892b21" class="style3"></td>
+<td class="style3">3777</td>
+<td class="style3">Terra Cotta - vy dk</td>
+<td class="style3">Терракотовый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#c4856f" class="style3"></td>
+<td class="style3">3778</td>
+<td class="style3">Terra Cotta - lt</td>
+<td class="style3">Терракотовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#f2c6b8" class="style3"></td>
+<td class="style3">3779</td>
+<td class="style3">Terra Cotta - ultra vy lt</td>
+<td class="style3">Терракотовый, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#5c4c2d" class="style3"></td>
+<td class="style3">3781</td>
+<td class="style3">Mocha Brown - dk</td>
+<td class="style3">Мокка, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d2caba" class="style3"></td>
+<td class="style3">3782</td>
+<td class="style3">Mocha Brown - lt</td>
+<td class="style3">Мокка, св.</td>
+</tr>
+<tr>
+<td bgcolor="#605b45" class="style3"></td>
+<td class="style3">3787</td>
+<td class="style3">Brown Grey - dk</td>
+<td class="style3">Коричнево-серый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#978266" class="style3"></td>
+<td class="style3">3790</td>
+<td class="style3">Beige Grey - ultra dk</td>
+<td class="style3">Бежево-серый, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#2f3b36" class="style3"></td>
+<td class="style3">3799</td>
+<td class="style3">Pewter Grey - vy dk</td>
+<td class="style3">Оловянно серый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#e65952" class="style3"></td>
+<td class="style3">3801</td>
+<td class="style3">Christmas Red - lt</td>
+<td class="style3">Рождественский красный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#6f2e35" class="style3"></td>
+<td class="style3">3802</td>
+<td class="style3">Antique Mauve - vy dk</td>
+<td class="style3">Античный розовато-лиловый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#863248" class="style3"></td>
+<td class="style3">3803</td>
+<td class="style3">Mauve - dk</td>
+<td class="style3">Розовато-лиловый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#c33c62" class="style3"></td>
+<td class="style3">3804</td>
+<td class="style3">Cyclamen Pink - dk</td>
+<td class="style3">Розового цикламена, т.</td>
+</tr>
+<tr>
+<td bgcolor="#ce507f" class="style3"></td>
+<td class="style3">3805</td>
+<td class="style3">Cyclamen Pink</td>
+<td class="style3">Розового цикламена</td>
+</tr>
+<tr>
+<td bgcolor="#f19ac2" class="style3"></td>
+<td class="style3">3806</td>
+<td class="style3">Cyclamen Pink - lt</td>
+<td class="style3">Розового цикламена, св.</td>
+</tr>
+<tr>
+<td bgcolor="#073563" class="style3"></td>
+<td class="style3">3807</td>
+<td class="style3">Cornflower Blue</td>
+<td class="style3">Васильковый, кобальтовый</td>
+</tr>
+<tr>
+<td bgcolor="#0c464b" class="style3"></td>
+<td class="style3">3808</td>
+<td class="style3">Turquoise - ultra vy dk</td>
+<td class="style3">Бирюзовый, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#1c869b" class="style3"></td>
+<td class="style3">3809</td>
+<td class="style3">Turquoise - vy dk</td>
+<td class="style3">Бирюзовый, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#4fa1a9" class="style3"></td>
+<td class="style3">3810</td>
+<td class="style3">Turquoise - dk</td>
+<td class="style3">Бирюзовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#c4e7e8" class="style3"></td>
+<td class="style3">3811</td>
+<td class="style3">Turquoise - vy lt</td>
+<td class="style3">Бирюзовый, оч.св.</td>
+</tr>
+<tr>
+<td bgcolor="#008679" class="style3"></td>
+<td class="style3">3812</td>
+<td class="style3">Seagreen - vy dk</td>
+<td class="style3">Морской воды, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#b8cebe" class="style3"></td>
+<td class="style3">3813</td>
+<td class="style3">Blue Green - lt</td>
+<td class="style3">Сине-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#3f8878" class="style3"></td>
+<td class="style3">3814</td>
+<td class="style3">Aquamarine</td>
+<td class="style3">Аквамарин</td>
+</tr>
+<tr>
+<td bgcolor="#538a6d" class="style3"></td>
+<td class="style3">3815</td>
+<td class="style3">Celadon Green - dk</td>
+<td class="style3">Серовато-зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#699d85" class="style3"></td>
+<td class="style3">3816</td>
+<td class="style3">Celadon Green</td>
+<td class="style3">Серовато-зеленый</td>
+</tr>
+<tr>
+<td bgcolor="#a6c5b4" class="style3"></td>
+<td class="style3">3817</td>
+<td class="style3">Celadon Green - lt</td>
+<td class="style3">Серовато-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#005d2e" class="style3"></td>
+<td class="style3">3818</td>
+<td class="style3">Emerald Green - ultra vy dk</td>
+<td class="style3">Изумрудный, ультра т.</td>
+</tr>
+<tr>
+<td bgcolor="#d2d057" class="style3"></td>
+<td class="style3">3819</td>
+<td class="style3">Moss Green - lt</td>
+<td class="style3">Мох, св.</td>
+</tr>
+<tr>
+<td bgcolor="#ddb442" class="style3"></td>
+<td class="style3">3820</td>
+<td class="style3">Straw - dk</td>
+<td class="style3">Соломенный, т.</td>
+</tr>
+<tr>
+<td bgcolor="#e2b73a" class="style3"></td>
+<td class="style3">3821</td>
+<td class="style3">Straw</td>
+<td class="style3">Соломенный</td>
+</tr>
+<tr>
+<td bgcolor="#f1d863" class="style3"></td>
+<td class="style3">3822</td>
+<td class="style3">Straw - lt</td>
+<td class="style3">Соломенный, св.</td>
+</tr>
+<tr>
+<td bgcolor="#fffcdc" class="style3"></td>
+<td class="style3">3823</td>
+<td class="style3">Yellow - ultra pale</td>
+<td class="style3">Желтый, ультра бледный</td>
+</tr>
+<tr>
+<td bgcolor="#fbccb8" class="style3"></td>
+<td class="style3">3824</td>
+<td class="style3">Apricot - lt</td>
+<td class="style3">Абрикосовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#fdc391" class="style3"></td>
+<td class="style3">3825</td>
+<td class="style3">Pumpkin - pale</td>
+<td class="style3">Тыквенный, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#c38c55" class="style3"></td>
+<td class="style3">3826</td>
+<td class="style3">Golden Brown</td>
+<td class="style3">Золотовато-коричневый</td>
+</tr>
+<tr>
+<td bgcolor="#e8aa5f" class="style3"></td>
+<td class="style3">3827</td>
+<td class="style3">Golden Brown - pale</td>
+<td class="style3">Золотовато-коричневый, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#af8846" class="style3"></td>
+<td class="style3">3828</td>
+<td class="style3">Hazelnut Brown</td>
+<td class="style3">Фундука</td>
+</tr>
+<tr>
+<td bgcolor="#a47829" class="style3"></td>
+<td class="style3">3829</td>
+<td class="style3">Old Gold - vy dk</td>
+<td class="style3">Старого золота, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#b97161" class="style3"></td>
+<td class="style3">3830</td>
+<td class="style3">Terra Cotta</td>
+<td class="style3">Терракотовый</td>
+</tr>
+<tr>
+<td bgcolor="#b33034" class="style3"></td>
+<td class="style3">3831</td>
+<td class="style3">Raspberry - dk</td>
+<td class="style3">Малиновый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#d55d63" class="style3"></td>
+<td class="style3">3832</td>
+<td class="style3">Raspberry - med</td>
+<td class="style3">Малиновый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#e8868c" class="style3"></td>
+<td class="style3">3833</td>
+<td class="style3">Raspberry - lt</td>
+<td class="style3">Малиновый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#642441" class="style3"></td>
+<td class="style3">3834</td>
+<td class="style3">Grape - dk</td>
+<td class="style3">Красного винограда, т.</td>
+</tr>
+<tr>
+<td bgcolor="#784775" class="style3"></td>
+<td class="style3">3835</td>
+<td class="style3">Grape - med</td>
+<td class="style3">Красного винограда, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c1aec2" class="style3"></td>
+<td class="style3">3836</td>
+<td class="style3">Grape - lt</td>
+<td class="style3">Красного винограда, св.</td>
+</tr>
+<tr>
+<td bgcolor="#7c4087" class="style3"></td>
+<td class="style3">3837</td>
+<td class="style3">Lavender - ultra dk</td>
+<td class="style3">Лаванда, ультра тёмный</td>
+</tr>
+<tr>
+<td bgcolor="#62669a" class="style3"></td>
+<td class="style3">3838</td>
+<td class="style3">Lavender Blue - dk</td>
+<td class="style3">Лавандово-синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#94a8c9" class="style3"></td>
+<td class="style3">3839</td>
+<td class="style3">Lavender Blue - med</td>
+<td class="style3">Лавандово-синий, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c1d4ec" class="style3"></td>
+<td class="style3">3840</td>
+<td class="style3">Lavender Blue - lt</td>
+<td class="style3">Лавандово-синий, св.</td>
+</tr>
+<tr>
+<td bgcolor="#cbdde7" class="style3"></td>
+<td class="style3">3841</td>
+<td class="style3">Baby Blue - pale</td>
+<td class="style3">Нежно голубой, бледный</td>
+</tr>
+<tr>
+<td bgcolor="#12557e" class="style3"></td>
+<td class="style3">3842</td>
+<td class="style3">Wedgwood - dk</td>
+<td class="style3">Пыльно-синий, т.</td>
+</tr>
+<tr>
+<td bgcolor="#0095d3" class="style3"></td>
+<td class="style3">3843</td>
+<td class="style3">Electric Blue</td>
+<td class="style3">Волнующе синий</td>
+</tr>
+<tr>
+<td bgcolor="#04acce" class="style3"></td>
+<td class="style3">3844</td>
+<td class="style3">Bright Turquoise - dk</td>
+<td class="style3">Ярко-бирюзовый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#01cbec" class="style3"></td>
+<td class="style3">3845</td>
+<td class="style3">Bright Turquoise - med</td>
+<td class="style3">Ярко-бирюзовый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#63d3e1" class="style3"></td>
+<td class="style3">3846</td>
+<td class="style3">Bright Turquoise - lt</td>
+<td class="style3">Ярко-бирюзовый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#00604e" class="style3"></td>
+<td class="style3">3847</td>
+<td class="style3">Teal Green - dk</td>
+<td class="style3">Цвет рабочего стола Windows, т.</td>
+</tr>
+<tr>
+<td bgcolor="#42917f" class="style3"></td>
+<td class="style3">3848</td>
+<td class="style3">Teal Green - med</td>
+<td class="style3">Цвет рабочего стола Windows, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#6eb2a7" class="style3"></td>
+<td class="style3">3849</td>
+<td class="style3">Teal Green - lt</td>
+<td class="style3">Цвет рабочего стола Windows, св.</td>
+</tr>
+<tr>
+<td bgcolor="#08926f" class="style3"></td>
+<td class="style3">3850</td>
+<td class="style3">Bright Green - dk</td>
+<td class="style3">Ярко-зеленый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#56b69c" class="style3"></td>
+<td class="style3">3851</td>
+<td class="style3">Bright Green - lt</td>
+<td class="style3">Ярко-зеленый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#cc972b" height="23" class="style3"></td>
+<td class="style3">3852</td>
+<td class="style3">Straw - vy dk</td>
+<td class="style3">Соломенный, оч.т.</td>
+</tr>
+<tr>
+<td bgcolor="#fc9749" class="style3"></td>
+<td class="style3">3853</td>
+<td class="style3">Autumn Gold - dk</td>
+<td class="style3">Золотой осенний, т.</td>
+</tr>
+<tr>
+<td bgcolor="#f7b25c" class="style3"></td>
+<td class="style3">3854</td>
+<td class="style3">Autumn Gold - med</td>
+<td class="style3">Золотой осенний, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#f7ca84" class="style3"></td>
+<td class="style3">3855</td>
+<td class="style3">Autumn Gold - lt</td>
+<td class="style3">Золотой осенний, св.</td>
+</tr>
+<tr>
+<td bgcolor="#ebbc9a" class="style3"></td>
+<td class="style3">3856</td>
+<td class="style3">Mahogany - ultra vy lt</td>
+<td class="style3">Красного дерева, ультра св.</td>
+</tr>
+<tr>
+<td bgcolor="#804133" class="style3"></td>
+<td class="style3">3857</td>
+<td class="style3">Rosewood - dk</td>
+<td class="style3">Розового дерева, т.</td>
+</tr>
+<tr>
+<td bgcolor="#8d5745" class="style3"></td>
+<td class="style3">3858</td>
+<td class="style3">Rosewood - med</td>
+<td class="style3">Розового дерева, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#b68472" class="style3"></td>
+<td class="style3">3859</td>
+<td class="style3">Rosewood - lt</td>
+<td class="style3">Розового дерева, св.</td>
+</tr>
+<tr>
+<td bgcolor="#947974" class="style3"></td>
+<td class="style3">3860</td>
+<td class="style3">Cocoa</td>
+<td class="style3">Какао</td>
+</tr>
+<tr>
+<td bgcolor="#9e887f" class="style3"></td>
+<td class="style3">3861</td>
+<td class="style3">Cocoa - lt</td>
+<td class="style3">Какао, св.</td>
+</tr>
+<tr>
+<td bgcolor="#845f2e" class="style3"></td>
+<td class="style3">3862</td>
+<td class="style3">Mocha Beige - dk</td>
+<td class="style3">Темно-коричневый бежевый, т.</td>
+</tr>
+<tr>
+<td bgcolor="#a4866c" class="style3"></td>
+<td class="style3">3863</td>
+<td class="style3">Mocha Beige - med</td>
+<td class="style3">Темно-коричневый бежевый, ср.</td>
+</tr>
+<tr>
+<td bgcolor="#c9af93" class="style3"></td>
+<td class="style3">3864</td>
+<td class="style3">Mocha Beige - lt</td>
+<td class="style3">Темно-коричневый бежевый, св.</td>
+</tr>
+<tr>
+<td bgcolor="#faf9f5" class="style3"></td>
+<td class="style3">3865</td>
+<td class="style3">Winter White</td>
+<td class="style3">Снежно белый</td>
+</tr>
+<tr>
+<td bgcolor="#e7e5dd" class="style3"></td>
+<td class="style3">3866</td>
+<td class="style3">Mocha Brown - ultra vy lt</td>
+<td class="style3">Мокка, ультра св.</td>
+</tr>
+</tbody>
+</table>
