@@ -1,4 +1,5 @@
-/playing_with_pil.py
+playing_with_pil.py
+__pycache__/
 *.pdf
 *.xlsx
 *.swp
