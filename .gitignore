@@ -2,3 +2,6 @@ playing_with_pil.py
 *.pdf
 *.xlsx
 *.swp
+*.jpg
+*.jpeg
+*.png
