@@ -1,5 +1,7 @@
+playing_with_pil.py
 *.pdf
 *.xlsx
 *.swp
-
-playing_with_pil.py
+*.jpg
+*.jpeg
+*.png
