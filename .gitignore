@@ -1,3 +1,5 @@
 *.pdf
 *.xlsx
+*.swp
 
+playing_with_pil.py
