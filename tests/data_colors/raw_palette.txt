@@ -1,0 +1,42 @@
+<td bgcolor="#e9e9d4" class="style3"></td>
+<td class="style3">000</td>
+<td class="style3">Ecru</td>
+<td class="style3">Кремовый</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" class="style3"></td>
+<td class="style3">B5200</td>
+<td class="style3">Ultra white</td>
+<td class="style3">Белоснежный</td>
+</tr>
+<tr>
+<td bgcolor="#9f3845" class="style3"></td>
+<td class="style3">150</td>
+<td class="style3">Dusty Rose - ultra vy dk</td>
+<td class="style3">Пыльная роза, ультра очень тёмный (оч.т.)</td>
+</tr>
+<tr>
+<td bgcolor="#f2bcc5" class="style3"></td>
+<td class="style3">151</td>
+<td class="style3">Dusty Rose - vy lt</td>
+<td class="style3">Пыльная роза, очень светлый (оч.св.)</td>
+</tr>
+<tr>
+<td bgcolor="#cfa296" class="style3"></td>
+<td class="style3">152</td>
+<td class="style3">Shell Pink - med lt</td>
+<td class="style3">Розовых ракушек, средне светлый (ср.св.)</td>
+</tr>
+<tr>
+<td bgcolor="#debcd9" class="style3"></td>
+<td class="style3">153</td>
+<td class="style3">Violet - vy lt</td>
+<td class="style3">Фиолетовый, очень светлый (оч.св)</td>
+</tr>
+<tr>
+<td bgcolor="#4d2e3d" class="style3"></td>
+<td class="style3">154</td>
+<td class="style3">Grape - vy dk</td>
+<td class="style3">Красного винограда, оч.т.</td>
+</tr>
+<tr>

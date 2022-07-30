@@ -12,6 +12,7 @@ from openpyxl.styles.fills import PatternFill
 from find_close_color import close_color
 from color import Color
 
+
 def mosaic_to_pixel(w, h, m_s_cm):
     # 120 = 304.8 dpi
     single_mosaic_pixel = 120 * m_s_cm
@@ -32,8 +33,7 @@ def add_grid(image, m_size):
         if i in lines_y_coord:
             a_row = [black for j in val]
         else:
-            a_row = [black if j in lines_x_coord else val 
-            for j, val in enumerate(val)]
+            a_row = [black if j in lines_x_coord else val for j, val in enumerate(val)]
         img.append(a_row)
     return Image.fromarray(np.array(img, dtype=np.uint8))
 
@@ -58,7 +58,10 @@ def get_text_coord(img, m_size):
 def add_text(image, text_list, coord_list, m_size):
     draw = ImageDraw.Draw(image)
     m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
-    font = ImageFont.truetype("/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf", int((m_area/2)+1))
+    font = ImageFont.truetype(
+        "/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf",
+        int((m_area / 2) + 1),
+    )
 
     unfolded_text = [j for i in text_list for j in i]
 
@@ -151,7 +154,7 @@ def divide_into_chunks(image):
     cpu_number = multiprocessing.cpu_count()
     img_size = list(image.shape)
     divide = int(img_size[0] / cpu_number)
-    chunks = [] 
+    chunks = []
     if img_size[0] > cpu_number:
         for val in range(0, cpu_number):
             right_limit = divide * (val + 1)
@@ -163,18 +166,19 @@ def divide_into_chunks(image):
         chunks = [image]
     return chunks
 
+
 def unique_count(a):
     unique_value, counts = np.unique(a, return_counts=True)
     a_dict = dict(zip(unique_value, counts))
     sort_a = sorted(a_dict.items(), key=lambda item: item[1])[::-1]
     return dict(sort_a)
 
+
 def save_color_table(file_name, color_list, encode_list):
     color_result = unique_count(color_list)
     encode_result = unique_count(encode_list)
-    
 
-    color_file = Color.get_color(Color.HEX_FILE)    
+    color_file = Color.get_color(Color.HEX_FILE)
     encode_file = Color.get_color(Color.ENCODE_FILE)
 
     encode_colors_list = list(encode_file.values())
@@ -185,21 +189,21 @@ def save_color_table(file_name, color_list, encode_list):
     sorted_dmc_colors = []
     sorted_hex_colors = []
 
-    for i in sorted_encode: 
-        for j, val in enumerate(encode_colors_list): 
-            if i==val:
+    for i in sorted_encode:
+        for j, val in enumerate(encode_colors_list):
+            if i == val:
                 sorted_dmc_colors.append(dmc_colors_list[j])
                 sorted_hex_colors.append(hex_colors_list[j])
 
     hex_in_img = []
     dmc_in_img = []
-    for i in list(encode_result.keys()): 
-        for j, val in enumerate(encode_colors_list): 
-            if i==val:
+    for i in list(encode_result.keys()):
+        for j, val in enumerate(encode_colors_list):
+            if i == val:
                 hex_in_img.append(hex_colors_list[j])
                 dmc_in_img.append(dmc_colors_list[j])
 
-    print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     pd_amount = pd.DataFrame(list(encode_result.values()))
     pd_code = pd.DataFrame(dmc_in_img)
@@ -207,7 +211,7 @@ def save_color_table(file_name, color_list, encode_list):
 
     df = pd.concat([pd_amount, pd_encode, pd_code], axis=1)
     df.reset_index(drop=True, inplace=True)
-    df.columns = ['Кол-во', 'Символ', 'DMC цвет']
+    df.columns = ["Кол-во", "Символ", "DMC цвет"]
 
     wb = Workbook()
     ws = wb.active
@@ -215,18 +219,22 @@ def save_color_table(file_name, color_list, encode_list):
         ws.append(r)
 
     for i in range(0, len(hex_in_img)):
-        ws['D'+str(i+2)].fill = PatternFill("solid", start_color=str(hex_in_img[i][1::]))
+        ws["D" + str(i + 2)].fill = PatternFill(
+            "solid", start_color=str(hex_in_img[i][1::])
+        )
 
-    ws['F1'].value = 'В алфавитном порядке' 
-    ws['G1'].value = 'Символ'
-    ws['H1'].value = 'DMC цвет'
-    ws['I1'].value = 'Цвет'
+    ws["F1"].value = "В алфавитном порядке"
+    ws["G1"].value = "Символ"
+    ws["H1"].value = "DMC цвет"
+    ws["I1"].value = "Цвет"
     for i in range(0, len(sorted_dmc_colors)):
-        ws['G'+str(i+2)].value = sorted_encode[i]  
-        ws['H'+str(i+2)].value = sorted_dmc_colors[i]
-        ws['I'+str(i+2)].fill = PatternFill("solid", start_color=str(sorted_hex_colors[i])[1::])
+        ws["G" + str(i + 2)].value = sorted_encode[i]
+        ws["H" + str(i + 2)].value = sorted_dmc_colors[i]
+        ws["I" + str(i + 2)].fill = PatternFill(
+            "solid", start_color=str(sorted_hex_colors[i])[1::]
+        )
 
-    wb.save(file_name + '.xlsx')
+    wb.save(file_name + ".xlsx")
 
 
 def get_encoding_text(color_in_img):
@@ -241,8 +249,9 @@ def get_encoding_text(color_in_img):
 
     return encode_text
 
+
 def paralell_color_convertion(chunks):
-    color_list = [] 
+    color_list = []
     color_name = []
     with concurrent.futures.ProcessPoolExecutor() as exe:
         result = exe.map(convert_color, chunks)
@@ -251,35 +260,38 @@ def paralell_color_convertion(chunks):
             color_name.append(row_color_name)
     color_list = split_weird_array(color_list)
     color_name = list(split_weird_array(color_name))
-    return color_list, color_name 
+    return color_list, color_name
+
 
 def save_img(file_name, img):
-    margin = 3 # cm  
+    margin = 3  # cm
 
-    margin_top_pix = list(mosaic_to_pixel(1, 1, margin))[0] 
+    margin_top_pix = list(mosaic_to_pixel(1, 1, margin))[0]
     margin_bottom_pix = margin_top_pix
-    margin_left_pix = list(mosaic_to_pixel(1, 1, margin))[0] 
+    margin_left_pix = list(mosaic_to_pixel(1, 1, margin))[0]
     margin_right_pix = margin_left_pix
 
-    res = list(mosaic_to_pixel(1,1,2.54))[0]
+    res = list(mosaic_to_pixel(1, 1, 2.54))[0]
 
     w, h = img.size
     new_w = w + margin_right_pix + margin_left_pix
     new_h = h + margin_top_pix + margin_bottom_pix
 
-    img_with_pad = Image.new(img.mode, (new_w, new_h), (255,255,255))
+    img_with_pad = Image.new(img.mode, (new_w, new_h), (255, 255, 255))
     img_with_pad.paste(img, (margin_left_pix, margin_top_pix))
-    
-    print(f'resolution in PDF = {res} ppi')
-    paper_w = (new_w * margin)/margin_top_pix 
-    paper_h = (new_h * margin)/margin_top_pix 
 
-    print(f'paper size width = {paper_w} cm, height = {paper_h} cm.')
-    
-    img_with_pad.save(file_name+'.pdf', 'PDF', 
-        resolution=res, 
-        author='LALAPOPA',
-        )
+    print(f"resolution in PDF = {res} ppi")
+    paper_w = (new_w * margin) / margin_top_pix
+    paper_h = (new_h * margin) / margin_top_pix
+
+    print(f"paper size width = {paper_w} cm, height = {paper_h} cm.")
+
+    img_with_pad.save(
+        file_name + ".pdf",
+        "PDF",
+        resolution=res,
+        author="LALAPOPA",
+    )
 
 
 def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
@@ -292,11 +304,9 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
         list(image.size), mosaic_number_w, mosaic_number_h
     )
 
-    resize_img = image.resize(
-        (mosaic_number_w, mosaic_number_h)
-    )
+    resize_img = image.resize((mosaic_number_w, mosaic_number_h))
 
-    print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print(f"original size: {image.size} px width x height")
     print(
         f"mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm"
@@ -307,7 +317,7 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     color_list, color_name = paralell_color_convertion(chunks)
 
     print(f"number of mosaic: {len(color_name[0])}x{len(color_name)}")
-   #print(f"Color_list = shape is {color_list.shape}")
+    # print(f"Color_list = shape is {color_list.shape}")
 
     img_color = Image.fromarray(np.array(color_list, dtype=np.uint8))
     img_bg = Image.new("RGB", img_color.size, (255, 255, 255))
@@ -327,5 +337,5 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
 
     ready_img = add_text(ready_img, encode_text, coord_list, mosaic_size)
     # ready_img = add_grid(ready_img, mosaic_size)
-    save_img('result', ready_img)
-    save_color_table('table', color_name, encode_text)
+    save_img("result", ready_img)
+    save_color_table("table", color_name, encode_text)
