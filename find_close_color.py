@@ -2,7 +2,6 @@ import math
 import numpy as np
 from PIL import ImageColor
 
-
 def distance(c1, c2):
     rgb1 = np.array(c1)
     rgb2 = np.array(c2)
@@ -30,3 +29,4 @@ def close_color(rgb_color, color_palate):
             index = i
 
     return color_data_rgb[index], color_name_data[index]
+

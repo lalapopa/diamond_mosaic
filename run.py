@@ -8,7 +8,7 @@ def main():
 
 	mosaic_number_h = 80 
 	mosaic_number_w = 4 
-	img = 'PUPP.jpg'
+	img = 'img1.jpg'
 
 	with cProfile.Profile() as pr:
 		img_to_mosaic(img, mosaic_number_w, mosaic_number_h)
