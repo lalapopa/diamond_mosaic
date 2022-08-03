@@ -9,8 +9,9 @@ from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles.fills import PatternFill
 
-from find_close_color import close_color
-from color import Color
+from diamond_mosaic import color_finder
+from diamond_mosaic import color
+from diamond_mosaic import settings
 
 
 def mosaic_to_pixel(w, h, m_s_cm):
@@ -118,16 +119,22 @@ def add_circle(img_plane, up_coord, down_coord, color_list):
 
 
 def convert_color(input_colors):
-    color_palate = Color.get_color(Color.RGB_FILE)
+    color_palate = color.get_color(settings.PATH + settings.RGB_FILE)
     converted_color = []
     colors_name = []
+    finded_unique_colors = {}
     for i in input_colors:
-        a_row = [close_color(pixel, color_palate) for pixel in i]
-        a_row = [i for i in zip(*a_row)]
-
-        converted_color.append(a_row[0])
-        colors_name.append(a_row[1])
-
+        row = []
+        for pixel in i:
+            if str(pixel) in finded_unique_colors:
+                row.append(finded_unique_colors[str(pixel)])
+                continue
+            close_color = color_finder.close_color(pixel, color_palate)
+            finded_unique_colors[str(pixel)] = close_color
+            row.append(close_color)
+        row = [i for i in zip(*row)]
+        converted_color.append(row[0])
+        colors_name.append(row[1])
     return converted_color, colors_name
 
 
@@ -138,7 +145,6 @@ def split_weird_array(array):
             if len(array) == 1:
                 return np.array(v)
             continue
-
         ready_array = np.vstack((v, value))
         v = ready_array
     return ready_array
@@ -265,14 +271,12 @@ def paralell_color_convertion(chunks):
 
 def save_img(file_name, img):
     margin = 3  # cm
-
     margin_top_pix = list(mosaic_to_pixel(1, 1, margin))[0]
     margin_bottom_pix = margin_top_pix
     margin_left_pix = list(mosaic_to_pixel(1, 1, margin))[0]
     margin_right_pix = margin_left_pix
 
     res = list(mosaic_to_pixel(1, 1, 2.54))[0]
-
     w, h = img.size
     new_w = w + margin_right_pix + margin_left_pix
     new_h = h + margin_top_pix + margin_bottom_pix
@@ -295,13 +299,13 @@ def save_img(file_name, img):
 
 
 def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
-    mosaic_size = 0.25
+    mosaic_size = 0.25  # cm
 
     image = Image.open(img_name)
-    color_palate = Color.get_color(Color.RGB_FILE)
+    color_palate = color.get_color(PATH + RGB_FILE)
 
     mosaic_number_w, mosaic_number_h = hold_aspect_ratio(
-        list(image.size), mosaic_number_w, mosaic_number_h
+        image.size, mosaic_number_w, mosaic_number_h
     )
 
     resize_img = image.resize((mosaic_number_w, mosaic_number_h))
@@ -318,7 +322,6 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
 
     print(f"number of mosaic: {len(color_name[0])}x{len(color_name)}")
     # print(f"Color_list = shape is {color_list.shape}")
-
     img_color = Image.fromarray(np.array(color_list, dtype=np.uint8))
     img_bg = Image.new("RGB", img_color.size, (255, 255, 255))
     ready_size_img = img_bg.resize(

@@ -1,9 +1,9 @@
 env/*
 __pycache__/*
+**/data/*
 *.pdf
 *.xlsx
 *.swp
 *.jpg
 *.jpeg
 *.png
-*.json

@@ -3,9 +3,9 @@ import json
 import math
 from PIL import ImageColor
 
-from diamond_mosaic.settings import PATH, RAW_PALETTE_FILE
+import diamond_mosaic.settings as settings
 
-file_palette = PATH + RAW_PALETTE_FILE
+file_palette = settings.PATH + settings.RAW_PALETTE_FILE
 
 color_trigger = r"bgcolor=.........?"
 quote_trigger = r"\".*?\""
@@ -48,7 +48,7 @@ def two_value_coding(i):
     max_combination = math.factorial(n) / math.factorial(n - k)
     if i > max_combination or i <= 0:
         raise Exception(
-            f"that number in array cant be without repetition. Should be: 0 < {i} <={max_combination}"
+            f"That number in array can't be without repetition. Should be: 0 < {i} <={max_combination}"
         )
 
     array = []
@@ -61,7 +61,7 @@ def two_value_coding(i):
 
 
 def hex_to_rgb(hex_list):
-    return (ImageColor.getcolor(color_hex, "RGB") for color_hex in hex_list)
+    return (list(ImageColor.getcolor(color_hex, "RGB")) for color_hex in hex_list)
 
 
 def save_json(dict_data, file_path):
@@ -94,16 +94,23 @@ def decode_palatte(file_palette):
     color_encoding = encode_colors(color_dmc_data)
 
     color_hex_dict = dict(zip(color_dmc_data, color_hex_data))
-    color_rgb_dict = dict(zip(tuple(color_dmc_data), hex_to_rgb(color_hex_data)))
+    color_rgb_dict = {
+        k: v
+        for k, v in sorted(
+            dict(zip(color_dmc_data, hex_to_rgb(color_hex_data))).items(),
+            key=lambda item: item[1][0],
+        )
+    }
+
     color_encoding_dict = dict(zip(color_dmc_data, color_encoding))
     return color_hex_dict, color_rgb_dict, color_encoding_dict
 
 
 def main():
     hex_dict, rgb_dict, encode_dict = decode_palatte(file_palette)
-    save_json(hex_dict, "colors_data")
-    save_json(rgb_dict, "color_rgb_data")
-    save_json(encode_dict, "color_encoding")
+    save_json(hex_dict, settings.PATH + "colors_data.json")
+    save_json(rgb_dict, settings.PATH + "color_rgb_data.json")
+    save_json(encode_dict, settings.PATH + "color_encoding.json")
 
 
 if __name__ == "__main__":

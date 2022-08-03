@@ -19,4 +19,6 @@ def close_color(rgb_color, color_data):
         if i_distance <= min_distance:
             min_distance = i_distance
             color_name_out = color_name
+        if i_distance == 0:
+            break
     return tuple(color_data.get(color_name_out)), color_name_out
