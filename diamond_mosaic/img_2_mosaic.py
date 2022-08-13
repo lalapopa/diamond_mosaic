@@ -14,9 +14,14 @@ from diamond_mosaic import color
 from diamond_mosaic import settings
 
 
-def mosaic_to_pixel(w, h, m_s_cm):
-    # 120 = 304.8 dpi
-    single_mosaic_pixel = 120 * m_s_cm
+def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
+    """Convert real mosaic size to pixels
+    :w: mosaic amount in width
+    :h: mosaic amount in height
+    :m_s_cm: mosaic diameter in cm.
+    :pixel_per_centimeter: default density of image = 120 ppc (304.8 ppi)
+    """
+    single_mosaic_pixel = pixel_per_centimeter * m_s_cm
     return (round(w * single_mosaic_pixel), round(h * single_mosaic_pixel))
 
 
@@ -40,11 +45,9 @@ def add_grid(image, m_size):
 
 
 def get_text_coord(img, m_size):
-    m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
-    image_shape = list(img.size)
-
-    num_dot_x = int((image_shape[0] + 1) / m_area)
-    num_dot_y = int((image_shape[1] + 1) / m_area)
+    m_area = mosaic_to_pixel(1, 1, m_size)[0]
+    num_dot_x = int((img.size[0] + 1) / m_area)
+    num_dot_y = int((img.size[1] + 1) / m_area)
 
     x_coord = [num * m_area + round(m_area / 2) for num in range(0, num_dot_x)]
     y_coord = [num * m_area + round(m_area / 2) for num in range(0, num_dot_y)]
@@ -85,28 +88,21 @@ def get_color_name_in_img(img, color_palate):
 
 def get_ellipse_coord(img, mosaic_size):
     m_area = list(mosaic_to_pixel(1, 1, mosaic_size))[0]
-    img_size = list(img.size)
-    num_x = int(img_size[0] / m_area)
-    num_y = int(img_size[1] / m_area)
+    num_x = int(img.size[0] / m_area)
+    num_y = int(img.size[1] / m_area)
     x_coord = [m_area * num for num in range(0, num_x + 1)]
     y_coord = [m_area * num for num in range(0, num_y + 1)]
 
     coord_up = []
-    for x in range(0, num_x):
-        coord = [(x_coord[x], y_coord[y]) for y in range(0, num_y)]
+    for y in range(0, num_y):
+        coord = [(x_coord[x], y_coord[y]) for x in range(0, num_x)]
         coord_up.append(coord)
 
     coord_down = []
     for y in range(1, num_y + 1):
         coord = [(x_coord[x], y_coord[y]) for x in range(1, num_x + 1)]
         coord_down.append(coord)
-
-    ready_coord_up = [list(i) for i in transpose(coord_up)]
-    return ready_coord_up, coord_down
-
-
-def transpose(matrix):
-    return [*zip(*matrix)]
+    return coord_up, coord_down
 
 
 def add_circle(img_plane, up_coord, down_coord, color_list):
@@ -114,7 +110,7 @@ def add_circle(img_plane, up_coord, down_coord, color_list):
     for i, val in enumerate(up_coord):
         for j, x_coord in enumerate(val):
             color = tuple(color_list[i][j])
-            draw.ellipse([x_coord, down_coord[i][j]], fill=color)
+            draw.ellipse([tuple(x_coord), tuple(down_coord[i][j])], fill=color)
     return img_plane
 
 
@@ -244,7 +240,7 @@ def save_color_table(file_name, color_list, encode_list):
 
 
 def get_encoding_text(color_in_img):
-    encoding_data = Color.get_color(Color.ENCODE_FILE)
+    encoding_data = color.get_color(settings.PATH + settings.ENCODE_FILE)
     color_names = list(encoding_data.keys())
     all_encoding_values = list(encoding_data.values())
 
@@ -252,7 +248,6 @@ def get_encoding_text(color_in_img):
     for i in color_in_img:
         a_row = [all_encoding_values[color_names.index(pixel)] for pixel in i]
         encode_text.append(a_row)
-
     return encode_text
 
 
@@ -264,7 +259,7 @@ def paralell_color_convertion(chunks):
         for row_color, row_color_name in result:
             color_list.append(row_color)
             color_name.append(row_color_name)
-    color_list = split_weird_array(color_list)
+    color_list = np.array(split_weird_array(color_list), dtype=np.uint8)
     color_name = list(split_weird_array(color_name))
     return color_list, color_name
 
@@ -308,30 +303,21 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
         image.size, mosaic_number_w, mosaic_number_h
     )
 
-    resize_img = image.resize((mosaic_number_w, mosaic_number_h))
+    resize_img = np.array(image.resize((mosaic_number_w, mosaic_number_h)))
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print(f"original size: {image.size} px width x height")
     print(
         f"mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm"
     )
-
-    a = np.array(resize_img)
-    chunks = divide_into_chunks(a)
+    chunks = divide_into_chunks(resize_img)
     color_list, color_name = paralell_color_convertion(chunks)
 
     print(f"number of mosaic: {len(color_name[0])}x{len(color_name)}")
     # print(f"Color_list = shape is {color_list.shape}")
-    img_color = Image.fromarray(np.array(color_list, dtype=np.uint8))
-    img_bg = Image.new("RGB", img_color.size, (255, 255, 255))
-    ready_size_img = img_bg.resize(
-        mosaic_to_pixel(
-            mosaic_number_w,
-            mosaic_number_h,
-            mosaic_size,
-        ),
-        resample=Image.BOX,
-    )
+    picture_size = mosaic_to_pixel(mosaic_number_w, mosaic_number_h, mosaic_size)
+    ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
+
     up_coord, down_coord = get_ellipse_coord(ready_size_img, mosaic_size)
 
     ready_img = add_circle(ready_size_img, up_coord, down_coord, color_list)
