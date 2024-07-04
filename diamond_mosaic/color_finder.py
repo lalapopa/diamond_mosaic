@@ -1,4 +1,7 @@
 import math
+import numpy as np
+
+np.seterr(over="raise")
 
 
 def distance(c1, c2):
@@ -15,7 +18,7 @@ def close_color(rgb_color, color_data):
     color_name_out = ""
     min_distance = float("inf")
     for color_name, color in color_data.items():
-        i_distance = distance(color, rgb_color)
+        i_distance = distance(np.array(color), rgb_color)
         if i_distance <= min_distance:
             min_distance = i_distance
             color_name_out = color_name

@@ -2,8 +2,9 @@
 import pytest
 from PIL import Image, ImageDraw, ImageFont, ImageChops
 import numpy as np
-from diamond_mosaic import img_2_mosaic
-from diamond_mosaic import settings
+
+import diamond_mosaic.img_to_mosaic as img_to_mosaic
+import diamond_mosaic.settings as settings
 
 
 class MosaicImage:
@@ -54,13 +55,14 @@ mosaic_image = MosaicImage()
 )
 def test_mosaic_to_pixel(width, height, mosaic_size, mosaic_size_in_pixel):
     assert (
-        img_2_mosaic.mosaic_to_pixel(width, height, mosaic_size) == mosaic_size_in_pixel
+        img_to_mosaic.mosaic_to_pixel(width, height, mosaic_size)
+        == mosaic_size_in_pixel
     )
 
 
 def test_image_stats():
 
-    assert img_2_mosaic.hold_aspect_ratio(
+    assert img_to_mosaic.hold_aspect_ratio(
         mosaic_image.image.size,
         mosaic_image.mosaic_number_w,
         mosaic_image.mosaic_number_h,
@@ -72,7 +74,7 @@ def test_image_convert():
         (mosaic_image.resize_size_w, mosaic_image.resize_size_h)
     )
     a = np.array(resized_image)
-    color_list, color_name = img_2_mosaic.convert_color(a)
+    color_list, color_name = img_to_mosaic.convert_color(a)
     assert (color_list == mosaic_image.color_list).all()
     assert (color_name == mosaic_image.color_name).all()
 
@@ -82,20 +84,20 @@ def test_paralell_color_convertion():
         (mosaic_image.resize_size_w, mosaic_image.resize_size_h)
     )
     a = np.array(resized_image)
-    chunks = img_2_mosaic.divide_into_chunks(a)
-    color_list, color_name = img_2_mosaic.paralell_color_convertion(chunks)
+    chunks = img_to_mosaic.divide_into_chunks(a)
+    color_list, color_name = img_to_mosaic.paralell_color_convertion(chunks)
     assert (color_list == mosaic_image.color_list).all()
     assert (color_name == mosaic_image.color_name).all()
 
 
 def test_get_ellipse_coord():
-    picture_size = img_2_mosaic.mosaic_to_pixel(
+    picture_size = img_to_mosaic.mosaic_to_pixel(
         mosaic_image.mosaic_number_w,
         mosaic_image.mosaic_number_h,
         mosaic_image.mosaic_size,
     )
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
-    up_coords, down_coords = img_2_mosaic.get_ellipse_coord(
+    up_coords, down_coords = img_to_mosaic.get_ellipse_coord(
         ready_size_img, mosaic_image.mosaic_size
     )
     assert (up_coords == mosaic_image.up_coords).all()
@@ -103,32 +105,32 @@ def test_get_ellipse_coord():
 
 
 def test_get_text_coord():
-    picture_size = img_2_mosaic.mosaic_to_pixel(
+    picture_size = img_to_mosaic.mosaic_to_pixel(
         mosaic_image.mosaic_number_w,
         mosaic_image.mosaic_number_h,
         mosaic_image.mosaic_size,
     )
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
-    text_coord = img_2_mosaic.get_text_coord(ready_size_img, mosaic_image.mosaic_size)
+    text_coord = img_to_mosaic.get_text_coord(ready_size_img, mosaic_image.mosaic_size)
     assert (text_coord == mosaic_image.text_coord).all()
 
 
 def test_get_encoding_text():
     assert (
         mosaic_image.encode_text
-        == img_2_mosaic.get_encoding_text(mosaic_image.color_name)
+        == img_to_mosaic.get_encoding_text(mosaic_image.color_name)
     ).all()
 
 
 def test_add_circle_to_img():
-    picture_size = img_2_mosaic.mosaic_to_pixel(
+    picture_size = img_to_mosaic.mosaic_to_pixel(
         mosaic_image.mosaic_number_w,
         mosaic_image.mosaic_number_h,
         mosaic_image.mosaic_size,
     )
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
     rdy_img = np.asarray(
-        img_2_mosaic.add_circle(
+        img_to_mosaic.add_circle(
             ready_size_img,
             mosaic_image.up_coords,
             mosaic_image.down_coords,

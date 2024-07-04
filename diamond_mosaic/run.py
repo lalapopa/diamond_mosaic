@@ -1,5 +1,5 @@
 import time
-from img_conver_color import img_to_mosaic
+from img_to_mosaic import img_to_mosaic
 import cProfile
 import pstats
 
@@ -7,9 +7,9 @@ import pstats
 def main():
     start_time = time.time()
 
-    mosaic_number_h = 80
-    mosaic_number_w = 4
-    img = "img1.jpg"
+    mosaic_number_h = 400
+    mosaic_number_w = 5
+    img = "img3.png"
 
     with cProfile.Profile() as pr:
         img_to_mosaic(img, mosaic_number_w, mosaic_number_h)

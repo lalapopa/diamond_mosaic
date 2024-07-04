@@ -9,9 +9,9 @@ from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles.fills import PatternFill
 
-from diamond_mosaic import color_finder
-from diamond_mosaic import color
-from diamond_mosaic import settings
+import diamond_mosaic.color_finder as color_finder
+import diamond_mosaic.color as color
+import diamond_mosaic.settings as settings
 
 
 def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
@@ -27,21 +27,29 @@ def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
 
 def add_grid(image, m_size):
     black = [0, 0, 0]
+    line_width = 1
+
     m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
     image_shape = list(image.size)
     num_lines_x = int((image_shape[0] + 1) / m_area)
     num_lines_y = int((image_shape[1] + 1) / m_area)
-    lines_x_coord = [num * m_area for num in range(0, num_lines_x + 1)]
-    lines_y_coord = [num * m_area for num in range(0, num_lines_y + 1)]
+    lines_x_coord = [
+        num * m_area - 1 if num != 0 else 0 for num in range(0, num_lines_x + 1)
+    ]
+    lines_y_coord = [
+        num * m_area - 1 if num != 0 else 0 for num in range(0, num_lines_y + 1)
+    ]
 
-    img = []
-    for i, val in enumerate(np.array(image)):
-        if i in lines_y_coord:
-            a_row = [black for j in val]
-        else:
-            a_row = [black if j in lines_x_coord else val for j, val in enumerate(val)]
-        img.append(a_row)
-    return Image.fromarray(np.array(img, dtype=np.uint8))
+    draw = ImageDraw.Draw(image)
+    for x_coord in lines_x_coord:
+        draw.line(
+            [(x_coord, 0), (x_coord, image_shape[1])], fill="black", width=line_width
+        )
+    for y_coord in lines_y_coord:
+        draw.line(
+            [(0, y_coord), (image_shape[0], y_coord)], fill="black", width=line_width
+        )
+    return image
 
 
 def get_text_coord(img, m_size):
@@ -180,8 +188,8 @@ def save_color_table(file_name, color_list, encode_list):
     color_result = unique_count(color_list)
     encode_result = unique_count(encode_list)
 
-    color_file = Color.get_color(Color.HEX_FILE)
-    encode_file = Color.get_color(Color.ENCODE_FILE)
+    color_file = color.get_color(settings.PATH + settings.HEX_FILE)
+    encode_file = color.get_color(settings.PATH + settings.ENCODE_FILE)
 
     encode_colors_list = list(encode_file.values())
     hex_colors_list = list(color_file.values())
@@ -259,7 +267,7 @@ def paralell_color_convertion(chunks):
         for row_color, row_color_name in result:
             color_list.append(row_color)
             color_name.append(row_color_name)
-    color_list = np.array(split_weird_array(color_list), dtype=np.uint8)
+    color_list = np.array(split_weird_array(color_list))
     color_name = list(split_weird_array(color_name))
     return color_list, color_name
 
@@ -297,7 +305,7 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     mosaic_size = 0.25  # cm
 
     image = Image.open(img_name)
-    color_palate = color.get_color(PATH + RGB_FILE)
+    color_palate = color.get_color(settings.PATH + settings.RGB_FILE)
 
     mosaic_number_w, mosaic_number_h = hold_aspect_ratio(
         image.size, mosaic_number_w, mosaic_number_h
@@ -306,14 +314,17 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     resize_img = np.array(image.resize((mosaic_number_w, mosaic_number_h)))
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print(f"original size: {image.size} px width x height")
+    print(f"Original size: {image.size} px width x height")
     print(
-        f"mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm"
+        f"Mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm (single cell is {mosaic_size} cm in diameter)"
     )
+
     chunks = divide_into_chunks(resize_img)
     color_list, color_name = paralell_color_convertion(chunks)
 
-    print(f"number of mosaic: {len(color_name[0])}x{len(color_name)}")
+    print(
+        f"Number of mosaic: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
+    )
     # print(f"Color_list = shape is {color_list.shape}")
     picture_size = mosaic_to_pixel(mosaic_number_w, mosaic_number_h, mosaic_size)
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
@@ -325,6 +336,6 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     encode_text = get_encoding_text(color_name)
 
     ready_img = add_text(ready_img, encode_text, coord_list, mosaic_size)
-    # ready_img = add_grid(ready_img, mosaic_size)
+    ready_img = add_grid(ready_img, mosaic_size)
     save_img("result", ready_img)
     save_color_table("table", color_name, encode_text)
