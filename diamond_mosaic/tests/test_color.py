@@ -4,8 +4,8 @@ import numpy as np
 from diamond_mosaic.color_finder import close_color
 from diamond_mosaic.color import get_color
 
-from diamond_mosaic.settings import PATH, RGB_FILE, TEST_PATH, RAW_PALETTE_FILE
-from diamond_mosaic.color_palette import make_colors
+from diamond_mosaic.settings import DATA_PATH, RGB_FILE, TEST_PATH, RAW_PALETTE_FILE
+from diamond_mosaic import make_colors
 
 
 @pytest.mark.parametrize(
@@ -19,7 +19,7 @@ from diamond_mosaic.color_palette import make_colors
     ],
 )
 def test_color_finder(in_color, out_color, dmc_color):
-    rgb = get_color(PATH + RGB_FILE)
+    rgb = get_color(DATA_PATH + RGB_FILE)
     rgb_color_value, dmc_code = close_color(in_color, rgb)
     assert dmc_code == dmc_color
     assert (rgb_color_value == out_color).all()

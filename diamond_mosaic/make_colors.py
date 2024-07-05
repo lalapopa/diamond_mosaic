@@ -1,15 +1,27 @@
+import os
 import re
-import json
 import math
+from pathlib import Path
 from PIL import ImageColor
 
-import diamond_mosaic.settings as settings
+from .settings import (
+    PATH,
+    LABELS_FILE,
+    RAW_PALETTE_FILE,
+    RGB_FILE,
+    HEX_FILE,
+    DATA_PATH,
+)
+from .utils import save_json
 
-file_palette = settings.PATH + settings.RAW_PALETTE_FILE
+FILE_PALETTE = PATH + RAW_PALETTE_FILE
 
-color_trigger = r"bgcolor=.........?"
+color_trigger = r"(bgcolor=.........?)|(data-title=........?)"
 quote_trigger = r"\".*?\""
-color_dmc_trigger = r'<td class="style3">(.*?)</td>'
+color_dmc_trigger = (
+    r'(<td class="style3">(.*?)<\/td>)|(<div class="ribbon">(.*?)<\/div>)'
+)
+
 number_trigger = r"\d+"
 
 
@@ -64,11 +76,6 @@ def hex_to_rgb(hex_list):
     return (list(ImageColor.getcolor(color_hex, "RGB")) for color_hex in hex_list)
 
 
-def save_json(dict_data, file_path):
-    with open(file_path, "w") as f:
-        f.write(json.dumps(dict_data))
-
-
 def encode_colors(colors):
     return [two_value_coding(i) for i in range(1, len(colors) + 1)]
 
@@ -80,9 +87,15 @@ def decode_palatte(file_palette):
     with open(file_palette, "r", encoding="utf-8") as f:
         for i in f:
             x = re.findall(color_trigger, i)
+            print(x)
             if x:
                 color_hash = re.findall(quote_trigger, x[0])[0]
-                color_hex_data.append(color_hash[1:-1])
+                if len(color_hash) == 9:  # "#aaaaaa"
+                    color_hex_data.append(color_hash[1:-1])
+                elif len(color_hash) == 8:  # "aaaaaa"
+                    color_hex_data.append("#" + color_hash[1:-1])
+                else:
+                    raise NameError("Your data '{file_palette}' has broken color value")
 
             y = re.search(color_dmc_trigger, i)
             if y:
@@ -107,10 +120,13 @@ def decode_palatte(file_palette):
 
 
 def main():
-    hex_dict, rgb_dict, encode_dict = decode_palatte(file_palette)
-    save_json(hex_dict, settings.PATH + "colors_data.json")
-    save_json(rgb_dict, settings.PATH + "color_rgb_data.json")
-    save_json(encode_dict, settings.PATH + "color_encoding.json")
+    hex_dict, rgb_dict, encode_dict = decode_palatte(FILE_PALETTE)
+
+    Path(DATA_PATH).mkdir(parents=True, exist_ok=True)
+
+    save_json(hex_dict, DATA_PATH + HEX_FILE)
+    save_json(rgb_dict, DATA_PATH + RGB_FILE)
+    save_json(encode_dict, DATA_PATH + LABELS_FILE)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1140 @@
+<div class="clor-container">
+<div class="color" data-title="faf484">
+<div class="display-color" style="background: rgb(250, 244, 132);">&nbsp;</div>
+<p>A101</p>
+<p>Chicken</p>
+<div class="preview_c" style="background: rgb(250, 244, 132);">
+<div class="ribbon">A101 Chicken • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="fcfc77">
+<div class="display-color" style="background: rgb(252, 252, 119);">&nbsp;</div>
+<p>A102<br>
+Lemon</p>
+<div class="preview_c" style="background: rgb(252, 252, 119);">
+<div class="ribbon">A102 Lemon • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f4f21a">
+<div class="display-color" style="background: rgb(244, 242, 26);">&nbsp;</div>
+<p>A103</p>
+<p>Yellow</p>
+<div class="preview_c" style="background: rgb(244, 242, 26);">
+<div class="ribbon">A103 Yellow Cadmium • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f0cb0a">
+<div class="display-color" style="background: rgb(240, 203, 10);">&nbsp;</div>
+<p>A104</p>
+<p>Baks Sunrise</p>
+<div class="preview_c" style="background: rgb(240, 203, 10);">
+<div class="ribbon">A104 Baks Sunrise • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f0b600">
+<div class="display-color" style="background: rgb(240, 182, 0);">&nbsp;</div>
+<p>A105</p>
+<p>Zonker</p>
+<div class="preview_c" style="background: rgb(240, 182, 0);">
+<div class="ribbon">A105 Zonker • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff980b">
+<div class="display-color" style="background: rgb(255, 152, 11);">&nbsp;</div>
+<p>A106<br>
+Pumpkin</p>
+<div class="preview_c" style="background: rgb(255, 152, 11);">
+<div class="ribbon">A106 Pumpkin • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="e6a40b">
+<div class="display-color" style="background: rgb(230, 164, 11);">&nbsp;</div>
+<p>A107</p>
+<p>Yellow melon</p>
+<div class="preview_c" style="background: rgb(230, 164, 11);">
+<div class="ribbon">107 Yellow melon • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="a63535">
+<div class="display-color" style="background: rgb(166, 53, 53);">&nbsp;</div>
+<p>A108</p>
+<p>Mr.Nuts</p>
+<div class="preview_c" style="background: rgb(166, 53, 53);">
+<div class="ribbon">A108 Mr.Nuts • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="782c13">
+<div class="display-color" style="background: rgb(120, 44, 19);">&nbsp;</div>
+<p>A109</p>
+<p>Buffalo</p>
+<div class="preview_c" style="background: rgb(120, 44, 19);">
+<div class="ribbon">A109 Buffalo • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="E7E463">
+<div class="display-color" style="background: rgb(231, 228, 99);">&nbsp;</div>
+<p>A111</p>
+<p>Banana</p>
+<div class="preview_c" style="background: rgb(231, 228, 99);">
+<div class="ribbon">A111 Banana • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="c4c400">
+<div class="display-color" style="background: rgb(196, 196, 0);">&nbsp;</div>
+<p>A113</p>
+<p>Mustard</p>
+<div class="preview_c" style="background: rgb(196, 196, 0);">
+<div class="ribbon">A113 Mustang • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="a88d15">
+<div class="display-color" style="background: rgb(168, 141, 21);">&nbsp;</div>
+<p>A115</p>
+<p>Curry</p>
+<div class="preview_c" style="background: rgb(168, 141, 21);">
+<div class="ribbon">A115 Curry • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="574d29">
+<div class="display-color" style="background: rgb(87, 77, 41);">&nbsp;</div>
+<p>A118</p>
+<p>Humor</p>
+<div class="preview_c" style="background: rgb(87, 77, 41);">
+<div class="ribbon">A118 Humor • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ffc09e">
+<div class="display-color" style="background: rgb(255, 192, 158);">&nbsp;</div>
+<p>A201</p>
+<p>Pisok</p>
+<div class="preview_c" style="background: rgb(255, 192, 158);">
+<div class="ribbon">A201 Pisok • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff980b">
+<div class="display-color" style="background: rgb(255, 152, 11);">&nbsp;</div>
+<p>A203<br>
+Pastel Orange</p>
+<div class="preview_c" style="background: rgb(255, 152, 11);">
+<div class="ribbon">A203 Pastel Orange • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff7226">
+<div class="display-color" style="background: rgb(255, 114, 38);">&nbsp;</div>
+<p>A205</p>
+<p>Clockwork</p>
+<div class="preview_c" style="background: rgb(255, 114, 38); left: -360px; top: 68px; display: none;">
+<div class="ribbon">A205 56 Clockwork crew • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff5900">
+<div class="display-color" style="background: rgb(255, 89, 0);">&nbsp;</div>
+<p>A206</p>
+<p>Halloween</p>
+<div class="preview_c" style="background: rgb(255, 89, 0);">
+<div class="ribbon">A206 Halloween • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff3d0d">
+<div class="display-color" style="background: rgb(255, 61, 13);">&nbsp;</div>
+<p>A207</p>
+<p>Phoenix</p>
+<div class="preview_c" style="background: rgb(255, 61, 13);">
+<div class="ribbon">A207 Phoenix • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f34947">
+<div class="display-color" style="background: rgb(243, 73, 71);">&nbsp;</div>
+<p>A208<br>
+Mack</p>
+<div class="preview_c" style="background: rgb(243, 73, 71);">
+<div class="ribbon">A208 Mack • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f20000">
+<div class="display-color" style="background: rgb(242, 0, 0);">&nbsp;</div>
+<p>A305</p>
+<p>Classic Red</p>
+<div class="preview_c" style="background: rgb(242, 0, 0);">
+<div class="ribbon">A305 Classic Red • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="CC0000">
+<div class="display-color" style="background: rgb(204, 0, 0);">&nbsp;</div>
+<p>A306</p>
+<p>Chilly pepper</p>
+<div class="preview_c" style="background: rgb(204, 0, 0);">
+<div class="ribbon">A306 Chilly Pepper • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="c40417">
+<div class="display-color" style="background: rgb(196, 4, 23);">&nbsp;</div>
+<p>A307</p>
+<p>Red Dragon</p>
+<div class="preview_c" style="background: rgb(196, 4, 23);">
+<div class="ribbon">A307 Red Dragon • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="7a0000">
+<div class="display-color" style="background: rgb(122, 0, 0);">&nbsp;</div>
+<p>A308</p>
+<p>Ruby Red</p>
+<div class="preview_c" style="background: rgb(122, 0, 0);">
+<div class="ribbon">A308 Ruby Red • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="301618">
+<div class="display-color" style="background: rgb(48, 22, 24);">&nbsp;</div>
+<p>A309<br>
+Vampire</p>
+<div class="preview_c" style="background: rgb(48, 22, 24);">
+<div class="ribbon">A309 Vampire • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="fad1cf">
+<div class="display-color" style="background: rgb(250, 209, 207);">&nbsp;</div>
+<p>A311</p>
+<p>Victoria</p>
+<div class="preview_c" style="background: rgb(250, 209, 207);">
+<div class="ribbon">A311 Victoria • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="feaeb1">
+<div class="display-color" style="background: rgb(254, 174, 177);">&nbsp;</div>
+<p>A312</p>
+<p>Paradise</p>
+<div class="preview_c" style="background: rgb(254, 174, 177);">
+<div class="ribbon">A312 Paradise • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff88b8">
+<div class="display-color" style="background: rgb(255, 136, 184);">&nbsp;</div>
+<p>A313<br>
+Princess</p>
+<div class="preview_c" style="background: rgb(255, 136, 184);">
+<div class="ribbon">A313 Princess • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff7399">
+<div class="display-color" style="background: rgb(255, 115, 153);">&nbsp;</div>
+<p>A314<br>
+Smoothie</p>
+<div class="preview_c" style="background: rgb(255, 115, 153);">
+<div class="ribbon">A314 Smoothie • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d92792">
+<div class="display-color" style="background: rgb(217, 39, 146);">&nbsp;</div>
+<p>A315</p>
+<p>Julik</p>
+<div class="preview_c" style="background: rgb(217, 39, 146);">
+<div class="ribbon">A315 Julik • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="bf1f97">
+<div class="display-color" style="background: rgb(191, 31, 151);">&nbsp;</div>
+<p>A316</p>
+<p>Sneksy</p>
+<div class="preview_c" style="background: rgb(191, 31, 151);">
+<div class="ribbon">A316 Sneksy • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="96087a">
+<div class="display-color" style="background: rgb(150, 8, 122);">&nbsp;</div>
+<p>A317</p>
+<p>Le Atomse</p>
+<div class="preview_c" style="background: rgb(150, 8, 122);">
+<div class="ribbon">A317 Le Atomse • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="500856">
+<div class="display-color" style="background: rgb(80, 8, 86);">&nbsp;</div>
+<p>A319</p>
+<p>Garnet</p>
+<div class="preview_c" style="background: rgb(80, 8, 86);">
+<div class="ribbon">319 Garnet • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ffb193">
+<div class="display-color" style="background: rgb(255, 177, 147);">&nbsp;</div>
+<p>A321<br>
+Rhapsody</p>
+<div class="preview_c" style="background: rgb(255, 177, 147);">
+<div class="ribbon">A321 Rhapsody • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff8e66">
+<div class="display-color" style="background: rgb(255, 142, 102);">&nbsp;</div>
+<p>A323</p>
+<p>Salmon</p>
+<div class="preview_c" style="background: rgb(255, 142, 102);">
+<div class="ribbon">A323 Salmon • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff6d39">
+<div class="display-color" style="background: rgb(255, 109, 57);">&nbsp;</div>
+<p>A325</p>
+<p>Coral</p>
+<div class="preview_c" style="background: rgb(255, 109, 57);">
+<div class="ribbon">A325 Coral • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff5f20">
+<div class="display-color" style="background: rgb(255, 95, 32);">&nbsp;</div>
+<p>A327</p>
+<p>Lobster</p>
+<div class="preview_c" style="background: rgb(255, 95, 32);">
+<div class="ribbon">A327 Lobster • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="fa9191">
+<div class="display-color" style="background: rgb(250, 145, 145);">&nbsp;</div>
+<p>A331</p>
+<p>Repas</p>
+<div class="preview_c" style="background: rgb(250, 145, 145);">
+<div class="ribbon">A331 Repas • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff6e6e">
+<div class="display-color" style="background: rgb(255, 110, 110);">&nbsp;</div>
+<p>A333</p>
+<p>Apricot</p>
+<div class="preview_c" style="background: rgb(255, 110, 110);">
+<div class="ribbon">A333 Apricot • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ff4747">
+<div class="display-color" style="background: rgb(255, 71, 71);">&nbsp;</div>
+<p>A335</p>
+<p>Funky Red</p>
+<div class="preview_c" style="background: rgb(255, 71, 71);">
+<div class="ribbon">A335 Truba Funky Red • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="e3004f">
+<div class="display-color" style="background: rgb(227, 0, 79);">&nbsp;</div>
+<p>A337</p>
+<p>Akisha</p>
+<div class="preview_c" style="background: rgb(227, 0, 79);">
+<div class="ribbon">A337 Akisha(Magenta) • Artom 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f3aff3">
+<div class="display-color" style="background: rgb(243, 175, 243);">&nbsp;</div>
+<p>A401</p>
+<p>Ste Junior</p>
+<div class="preview_c" style="background: rgb(243, 175, 243);">
+<div class="ribbon">A401 Ste Junior • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f689f6">
+<div class="display-color" style="background: rgb(246, 137, 246);">&nbsp;</div>
+<p>A402<br>
+Baby</p>
+<div class="preview_c" style="background: rgb(246, 137, 246);">
+<div class="ribbon">A402 Baby • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="e063e0">
+<div class="display-color" style="background: rgb(224, 99, 224);">&nbsp;</div>
+<p>A404</p>
+<p>Lupine</p>
+<div class="preview_c" style="background: rgb(224, 99, 224);">
+<div class="ribbon">404 Lupine • Arton 400 ml.</div>
+</div>
+</div>
+<p><!---------------------!--></p>
+<div class="color" data-title="ec4fd0">
+<div class="display-color" style="background: rgb(236, 79, 208);">&nbsp;</div>
+<p>A405<br>
+Fuchsia</p>
+<div class="preview_c" style="background: rgb(236, 79, 208);">
+<div class="ribbon">A405 Fuchsia • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="b23fb2">
+<div class="display-color" style="background: rgb(178, 63, 178);">&nbsp;</div>
+<p>A406</p>
+<p>Quel</p>
+<div class="preview_c" style="background: rgb(178, 63, 178);">
+<div class="ribbon">A406 Quel • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="852885">
+<div class="display-color" style="background: rgb(133, 40, 133);">&nbsp;</div>
+<p>A407</p>
+<p>Taknado</p>
+<div class="preview_c" style="background: rgb(133, 40, 133);">
+<div class="ribbon">A407 Taknado • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d4cbf4">
+<div class="display-color" style="background: rgb(212, 203, 244);">&nbsp;</div>
+<p>A410</p>
+<p>Lavender</p>
+<div class="preview_c" style="background: rgb(212, 203, 244);">
+<div class="ribbon">A410 Lavender • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="b8adf2">
+<div class="display-color" style="background: rgb(184, 173, 242);">&nbsp;</div>
+<p>A411</p>
+<p>Speak</p>
+<div class="preview_c" style="background: rgb(184, 173, 242);">
+<div class="ribbon">A411 Speak • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="968ced">
+<div class="display-color" style="background: rgb(150, 140, 237);">&nbsp;</div>
+<p>A413</p>
+<p>Crocus</p>
+<div class="preview_c" style="background: rgb(150, 140, 237);">
+<div class="ribbon">A413 Crocus • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="6c00d9">
+<div class="display-color" style="background: rgb(108, 0, 217);">&nbsp;</div>
+<p>A415</p>
+<p>Wild Grape</p>
+<div class="preview_c" style="background: rgb(108, 0, 217);">
+<div class="ribbon">A415 Wild Grape • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="8408c7">
+<div class="display-color" style="background: rgb(132, 8, 199);">&nbsp;</div>
+<p>A416</p>
+<p>Gooze</p>
+<div class="preview_c" style="background: rgb(132, 8, 199);">
+<div class="ribbon">A416 Gooze • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="7206c9">
+<div class="display-color" style="background: rgb(114, 6, 201);">&nbsp;</div>
+<p>A417</p>
+<p>Bozik</p>
+<div class="preview_c" style="background: rgb(114, 6, 201);">
+<div class="ribbon">A417 Bozik • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="43048f">
+<div class="display-color" style="background: rgb(67, 4, 143);">&nbsp;</div>
+<p>A418</p>
+<p>Dark Violet</p>
+<div class="preview_c" style="background: rgb(67, 4, 143);">
+<div class="ribbon">A418 Dark Violet • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="EDDDE4">
+<div class="display-color" style="background: rgb(237, 221, 228);">&nbsp;</div>
+<p>A421</p>
+<p>Powder</p>
+<div class="preview_c" style="background: rgb(237, 221, 228);">
+<div class="ribbon">A421 Powder • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="DDC3CF">
+<div class="display-color" style="background: rgb(221, 195, 207);">&nbsp;</div>
+<p>A422</p>
+<p>Oink</p>
+<div class="preview_c" style="background: rgb(221, 195, 207);">
+<div class="ribbon">A422 Oink • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d99696">
+<div class="display-color" style="background: rgb(217, 150, 150);">&nbsp;</div>
+<p>A423</p>
+<p>Kelor Pink</p>
+<div class="preview_c" style="background: rgb(217, 150, 150);">
+<div class="ribbon">A423 Kelor Antique Pink • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ba6192">
+<div class="display-color" style="background: rgb(186, 97, 146);">&nbsp;</div>
+<p>A425</p>
+<p>Pink Mist</p>
+<div class="preview_c" style="background: rgb(186, 97, 146);">
+<div class="ribbon">A425 Pink Mist • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="963e6f">
+<div class="display-color" style="background: rgb(150, 62, 111);">&nbsp;</div>
+<p>A427</p>
+<p>Granit</p>
+<div class="preview_c" style="background: rgb(150, 62, 111);">
+<div class="ribbon">A427 Granit • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d8f3ff">
+<div class="display-color" style="background: rgb(216, 243, 255);">&nbsp;</div>
+<p>A500</p>
+<p>Angel Blue</p>
+<div class="preview_c" style="background: rgb(216, 243, 255);">
+<div class="ribbon">A500 Angel Blue • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="a4e6fc">
+<div class="display-color" style="background: rgb(164, 230, 252);">&nbsp;</div>
+<p>A501</p>
+<p>Ice</p>
+<div class="preview_c" style="background: rgb(164, 230, 252);">
+<div class="ribbon">A501 Ice • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="66e0ff">
+<div class="display-color" style="background: rgb(102, 224, 255);">&nbsp;</div>
+<p>A502</p>
+<p>Skyline</p>
+<div class="preview_c" style="background: rgb(102, 224, 255);">
+<div class="ribbon">A502 Skyline • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="0fb7ff">
+<div class="display-color" style="background: rgb(15, 183, 255);">&nbsp;</div>
+<p>A503</p>
+<p>Nowe Crew</p>
+<div class="preview_c" style="background: rgb(15, 183, 255);">
+<div class="ribbon">A503 Nowe Crew • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="017fda">
+<div class="display-color" style="background: rgb(1, 127, 218);">&nbsp;</div>
+<p>A504</p>
+<p>Original Blue</p>
+<div class="preview_c" style="background: rgb(1, 127, 218);">
+<div class="ribbon">A504 Original Blue• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="000bff">
+<div class="display-color" style="background: rgb(0, 11, 255);">&nbsp;</div>
+<p>A505</p>
+<p>Blue Sky</p>
+<div class="preview_c" style="background: rgb(0, 11, 255);">
+<div class="ribbon">A505 Blue Sky • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="0455CC">
+<div class="display-color" style="background: rgb(4, 85, 204);">&nbsp;</div>
+<p>A505</p>
+<p>Medium Blue</p>
+<div class="preview_c" style="background: rgb(4, 85, 204);">
+<div class="ribbon">A505 Medium Blue • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="0011a8">
+<div class="display-color" style="background: rgb(0, 17, 168);">&nbsp;</div>
+<p>A507</p>
+<p>Popeye</p>
+<div class="preview_c" style="background: rgb(0, 17, 168);">
+<div class="ribbon">A507 Popeye The Sailor • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="033D93">
+<div class="display-color" style="background: rgb(3, 61, 147);">&nbsp;</div>
+<p>A508</p>
+<p>Ocean</p>
+<div class="preview_c" style="background: rgb(3, 61, 147); left: 0px; top: -139px; display: none;">
+<div class="ribbon">A508 Ocean • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="04107d">
+<div class="display-color" style="background: rgb(4, 16, 125);">&nbsp;</div>
+<p>A509</p>
+<p>City Night</p>
+<div class="preview_c" style="background: rgb(4, 16, 125);">
+<div class="ribbon">A509 City Night • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="8DA8F3">
+<div class="display-color" style="background: rgb(141, 168, 243);">&nbsp;</div>
+<p>A511</p>
+<p>Blue Star</p>
+<div class="preview_c" style="background: rgb(141, 168, 243);">
+<div class="ribbon">A511 Blue Star • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="7194bf">
+<div class="display-color" style="background: rgb(113, 148, 191);">&nbsp;</div>
+<p>A513</p>
+<p>Super</p>
+<div class="preview_c" style="background: rgb(113, 148, 191);">
+<div class="ribbon">A513 Super • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="2554c3">
+<div class="display-color" style="background: rgb(37, 84, 195);">&nbsp;</div>
+<p>A515</p>
+<p>Cornflower</p>
+<div class="preview_c" style="background: rgb(37, 84, 195);">
+<div class="ribbon">A515 Cornflower • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="aac7e5">
+<div class="display-color" style="background: rgb(170, 199, 229);">&nbsp;</div>
+<p>A523</p>
+<p>Cloud</p>
+<div class="preview_c" style="background: rgb(170, 199, 229);">
+<div class="ribbon">A523 Cloud • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="7299C8">
+<div class="display-color" style="background: rgb(114, 153, 200);">&nbsp;</div>
+<p>A524</p>
+<p>Everest</p>
+<div class="preview_c" style="background: rgb(114, 153, 200);">
+<div class="ribbon">A524 Everest • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="376091">
+<div class="display-color" style="background: rgb(55, 96, 145);">&nbsp;</div>
+<p>A525</p>
+<p>Iceberg</p>
+<div class="preview_c" style="background: rgb(55, 96, 145);">
+<div class="ribbon">A525 Iceberg • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="254061">
+<div class="display-color" style="background: rgb(37, 64, 97);">&nbsp;</div>
+<p>A527</p>
+<p>Jeans</p>
+<div class="preview_c" style="background: rgb(37, 64, 97);">
+<div class="ribbon">A527 Jeans • Arton 400 ml.</div>
+</div>
+</div>
+<p><!-------------------------!--><br>
+<!---------------------!--></p>
+<div class="color" data-title="99f779">
+<div class="display-color" style="background: rgb(153, 247, 121);">&nbsp;</div>
+<p>A601</p>
+<p>Peeks</p>
+<div class="preview_c" style="background: rgb(153, 247, 121);">
+<div class="ribbon">601 Peeks • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="72b95d">
+<div class="display-color" style="background: rgb(114, 185, 93);">&nbsp;</div>
+<p>A602</p>
+<p>Caterpillar</p>
+<div class="preview_c" style="background: rgb(114, 185, 93);">
+<div class="ribbon">A602 Caterpillar• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="69e94c">
+<div class="display-color" style="background: rgb(105, 233, 76);">&nbsp;</div>
+<p>A603</p>
+<p>Cannabis</p>
+<div class="preview_c" style="background: rgb(105, 233, 76);">
+<div class="ribbon">A603 Cannabis• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="0ecf07">
+<div class="display-color" style="background: rgb(14, 207, 7);">&nbsp;</div>
+<p>A604</p>
+<p>Froggy</p>
+<div class="preview_c" style="background: rgb(14, 207, 7);">
+<div class="ribbon">A604 Froggy • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="01a729">
+<div class="display-color" style="background: rgb(1, 167, 41);">&nbsp;</div>
+<p>A605</p>
+<p>True Green</p>
+<div class="preview_c" style="background: rgb(1, 167, 41);">
+<div class="ribbon">A605 True Green• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="118c03">
+<div class="display-color" style="background: rgb(17, 140, 3);">&nbsp;</div>
+<p>A606</p>
+<p>Grass Green</p>
+<div class="preview_c" style="background: rgb(17, 140, 3);">
+<div class="ribbon">A606 Grass Green • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="1e8e0b">
+<div class="display-color" style="background: rgb(30, 142, 11);">&nbsp;</div>
+<p>A607</p>
+<p>Goblin</p>
+<div class="preview_c" style="background: rgb(30, 142, 11);">
+<div class="ribbon">A607 Goblin • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="103a2e">
+<div class="display-color" style="background: rgb(16, 58, 46);">&nbsp;</div>
+<p>A608</p>
+<p>Dark Forest</p>
+<div class="preview_c" style="background: rgb(16, 58, 46);">
+<div class="ribbon">A608 Dark Forest • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d3ff24">
+<div class="display-color" style="background: rgb(211, 255, 36);">&nbsp;</div>
+<p>A611</p>
+<p>Chartreuse</p>
+<div class="preview_c" style="background: rgb(211, 255, 36);">
+<div class="ribbon">A611 Chartreuse • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="CFEC24">
+<div class="display-color" style="background: rgb(207, 236, 36);">&nbsp;</div>
+<p>A612</p>
+<p>Poison</p>
+<div class="preview_c" style="background: rgb(207, 236, 36);">
+<div class="ribbon">A612 Poison • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="b3ff00">
+<div class="display-color" style="background: rgb(179, 255, 0);">&nbsp;</div>
+<p>A613</p>
+<p>Toxic</p>
+<div class="preview_c" style="background: rgb(179, 255, 0);">
+<div class="ribbon">A613 Toxic • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="93eb0f">
+<div class="display-color" style="background: rgb(147, 235, 15);">&nbsp;</div>
+<p>A614</p>
+<p>Green Apple</p>
+<div class="preview_c" style="background: rgb(147, 235, 15);">
+<div class="ribbon">A614 Green Apple • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="83ba04">
+<div class="display-color" style="background: rgb(131, 186, 4);">&nbsp;</div>
+<p>A616</p>
+<p>Caiman</p>
+<div class="preview_c" style="background: rgb(131, 186, 4);">
+<div class="ribbon">6A16 Caiman • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="597505">
+<div class="display-color" style="background: rgb(89, 117, 5);">&nbsp;</div>
+<p>A617</p>
+<p>Duger Green</p>
+<div class="preview_c" style="background: rgb(89, 117, 5);">
+<div class="ribbon">A617 Duger Green • Arton 400 ml.</div>
+</div>
+</div>
+<p><!-------------------------!--><br>
+<!---------------------!--></p>
+<div class="color" data-title="226e0f">
+<div class="display-color" style="background: rgb(34, 110, 15);">&nbsp;</div>
+<p>A618</p>
+<p>Forester</p>
+<div class="preview_c" style="background: rgb(34, 110, 15);">
+<div class="ribbon">A618 Forester • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="142e03">
+<div class="display-color" style="background: rgb(20, 46, 3);">&nbsp;</div>
+<p>A619</p>
+<p>Covert</p>
+<div class="preview_c" style="background: rgb(20, 46, 3);">
+<div class="ribbon">A619 Covert • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="a8fff4">
+<div class="display-color" style="background: rgb(168, 255, 244);">&nbsp;</div>
+<p>A622</p>
+<p>Aurora</p>
+<div class="preview_c" style="background: rgb(168, 255, 244);">
+<div class="ribbon">622 Aurora • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="75FFE5">
+<div class="display-color" style="background: rgb(117, 255, 229);">&nbsp;</div>
+<p>A623</p>
+<p>Lagoon</p>
+<div class="preview_c" style="background: rgb(117, 255, 229);">
+<div class="ribbon">A623 Lagoon • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="00dbba">
+<div class="display-color" style="background: rgb(0, 219, 186);">&nbsp;</div>
+<p>624</p>
+<p>Menthol</p>
+<div class="preview_c" style="background: rgb(0, 219, 186);">
+<div class="ribbon">624 Menthol • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="02CAB2">
+<div class="display-color" style="background: rgb(2, 202, 178);">&nbsp;</div>
+<p>A625</p>
+<p>Ariel</p>
+<div class="preview_c" style="background: rgb(2, 202, 178);">
+<div class="ribbon">A625 Ariel • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="00cc70">
+<div class="display-color" style="background: rgb(0, 204, 112);">&nbsp;</div>
+<p>A626</p>
+<p>Mojito</p>
+<div class="preview_c" style="background: rgb(0, 204, 112);">
+<div class="ribbon">A626 Mojito • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="00a85d">
+<div class="display-color" style="background: rgb(0, 168, 93);">&nbsp;</div>
+<p>A627</p>
+<p>Atlantis</p>
+<div class="preview_c" style="background: rgb(0, 168, 93);">
+<div class="ribbon">A627 Atlantis • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="014a3f">
+<div class="display-color" style="background: rgb(1, 74, 63);">&nbsp;</div>
+<p>629</p>
+<p>Caribbean</p>
+<div class="preview_c" style="background: rgb(1, 74, 63);">
+<div class="ribbon">629 Caribbean Green • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="97eef7">
+<div class="display-color" style="background: rgb(151, 238, 247);">&nbsp;</div>
+<p>A632</p>
+<p>Suga Emerald</p>
+<div class="preview_c" style="background: rgb(151, 238, 247);">
+<div class="ribbon">A632 Suga Emerald • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="87d9f5">
+<div class="display-color" style="background: rgb(135, 217, 245);">&nbsp;</div>
+<p>A634</p>
+<p>Trek Sea</p>
+<div class="preview_c" style="background: rgb(135, 217, 245); left: 0px; top: -139px; display: none;">
+<div class="ribbon">A634 Trek Sea Breeze • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="048a91">
+<div class="display-color" style="background: rgb(4, 138, 145);">&nbsp;</div>
+<p>A636</p>
+<p>Mermaid</p>
+<div class="preview_c" style="background: rgb(4, 138, 145);">
+<div class="ribbon">A636 Mermaid • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="239592">
+<div class="display-color" style="background: rgb(35, 149, 146);">&nbsp;</div>
+<p>A637</p>
+<p>Storm</p>
+<div class="preview_c" style="background: rgb(35, 149, 146);">
+<div class="ribbon">A637 Storm • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="033a40">
+<div class="display-color" style="background: rgb(3, 58, 64);">&nbsp;</div>
+<p>A639</p>
+<p>Deep Sea</p>
+<div class="preview_c" style="background: rgb(3, 58, 64);">
+<div class="ribbon">A639 Deep Sea • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="37fa98">
+<div class="display-color" style="background: rgb(55, 250, 152);">&nbsp;</div>
+<p>A641</p>
+<p>Iguana</p>
+<div class="preview_c" style="background: rgb(55, 250, 152);">
+<div class="ribbon">A641 Iguana• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="78eb9d">
+<div class="display-color" style="background: rgb(120, 235, 157);">&nbsp;</div>
+<p>A643</p>
+<p>Nephrite</p>
+<div class="preview_c" style="background: rgb(120, 235, 157);">
+<div class="ribbon">A643 Nephrite• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="28ca65">
+<div class="display-color" style="background: rgb(40, 202, 101);">&nbsp;</div>
+<p>A645</p>
+<p>Zak Mini M.</p>
+<div class="preview_c" style="background: rgb(40, 202, 101);">
+<div class="ribbon">A645 Zak Mini Monster• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="9BC19B">
+<div class="display-color" style="background: rgb(155, 193, 155);">&nbsp;</div>
+<p>A651</p>
+<p>Green Tea</p>
+<div class="preview_c" style="background: rgb(155, 193, 155);">
+<div class="ribbon">A651 Green Tea • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="73A973">
+<div class="display-color" style="background: rgb(115, 169, 115);">&nbsp;</div>
+<p>A653</p>
+<p>Green Patina</p>
+<div class="preview_c" style="background: rgb(115, 169, 115);">
+<div class="ribbon">A653 Green Patina • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="588E58">
+<div class="display-color" style="background: rgb(88, 142, 88);">&nbsp;</div>
+<p>A655</p>
+<p>Jungle</p>
+<div class="preview_c" style="background: rgb(88, 142, 88);">
+<div class="ribbon">A655 Jungle • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f4f4f4">
+<div class="display-color" style="background: rgb(244, 244, 244);">&nbsp;</div>
+<p>A700</p>
+<p>GreyOut</p>
+<div class="preview_c" style="background: rgb(244, 244, 244);">
+<div class="ribbon">A700 GreyOut • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="e5dfe6">
+<div class="display-color" style="background: rgb(229, 223, 230);">&nbsp;</div>
+<p>A701</p>
+<p>Smoke</p>
+<div class="preview_c" style="background: rgb(229, 223, 230); left: 0px; top: -139px; display: none;">
+<div class="ribbon">A701 Smoke • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="bfbaba">
+<div class="display-color" style="background: rgb(191, 186, 186);">&nbsp;</div>
+<p>A702</p>
+<p>Uran</p>
+<div class="preview_c" style="background: rgb(191, 186, 186);">
+<div class="ribbon">A702 Uran • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="aaa6a6">
+<div class="display-color" style="background: rgb(170, 166, 166);">&nbsp;</div>
+<p>A703<br>
+Stone</p>
+<div class="preview_c" style="background: rgb(170, 166, 166);">
+<div class="ribbon">A703 Stone • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="a2a5a1">
+<div class="display-color" style="background: rgb(162, 165, 161);">&nbsp;</div>
+<p>A704</p>
+<p>Classic Grey</p>
+<div class="preview_c" style="background: rgb(162, 165, 161);">
+<div class="ribbon">A704 Classic Grey • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="6f6867">
+<div class="display-color" style="background: rgb(111, 104, 103);">&nbsp;</div>
+<p>A705</p>
+<p>Wolf</p>
+<div class="preview_c" style="background: rgb(111, 104, 103);">
+<div class="ribbon">A705 Wolf • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="737373">
+<div class="display-color" style="background: rgb(115, 115, 115);">&nbsp;</div>
+<p>A706<br>
+Poyla</p>
+<div class="preview_c" style="background: rgb(115, 115, 115);">
+<div class="ribbon">A706 Poyla • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="666666">
+<div class="display-color" style="background: rgb(102, 102, 102);">&nbsp;</div>
+<p>A707<br>
+Sadness</p>
+<div class="preview_c" style="background: rgb(102, 102, 102);">
+<div class="ribbon">A707 Sadness • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="4d505b">
+<div class="display-color" style="background: rgb(77, 80, 91);">&nbsp;</div>
+<p>A708</p>
+<p>Dark Grey</p>
+<div class="preview_c" style="background: rgb(77, 80, 91);">
+<div class="ribbon">A708 Dark Grey • Arton 400 ml.</div>
+</div>
+</div>
+<p><!-------------------------!--><br>
+<!---------------------!--></p>
+<div class="color" data-title="3d3e4d">
+<div class="display-color" style="background: rgb(61, 62, 77);">&nbsp;</div>
+<p>A709<br>
+Asphalt</p>
+<div class="preview_c" style="background: rgb(61, 62, 77);">
+<div class="ribbon">A709 Asphalt • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="93a16a">
+<div class="display-color" style="background: rgb(147, 161, 106);">&nbsp;</div>
+<p>A713</p>
+<p>M.Shadow</p>
+<div class="preview_c" style="background: rgb(147, 161, 106);">
+<div class="ribbon">A713 Millitary Shadow• Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="6e7d5e">
+<div class="display-color" style="background: rgb(110, 125, 94);">&nbsp;</div>
+<p>A716</p>
+<p>Twillight</p>
+<div class="preview_c" style="background: rgb(110, 125, 94);">
+<div class="ribbon">A716 Twillight • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f7ecbe">
+<div class="display-color" style="background: rgb(247, 236, 190);">&nbsp;</div>
+<p>A801</p>
+<p>Cream</p>
+<div class="preview_c" style="background: rgb(247, 236, 190); left: 0px; top: -139px; display: none;">
+<div class="ribbon">A801 Cream • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="f2ca8d">
+<div class="display-color" style="background: rgb(242, 202, 141);">&nbsp;</div>
+<p>A803</p>
+<p>Beige apricot</p>
+<div class="preview_c" style="background: rgb(242, 202, 141);">
+<div class="ribbon">A803 Beige apricot • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d1b26b">
+<div class="display-color" style="background: rgb(209, 178, 107);">&nbsp;</div>
+<p>A806</p>
+<p>Beige Lotus</p>
+<div class="preview_c" style="background: rgb(209, 178, 107);">
+<div class="ribbon">A806 Beige Lotus • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ebdca0">
+<div class="display-color" style="background: rgb(235, 220, 160);">&nbsp;</div>
+<p>A811</p>
+<p>Mokko</p>
+<div class="preview_c" style="background: rgb(235, 220, 160);">
+<div class="ribbon">A811 Mokko • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="b78167">
+<div class="display-color" style="background: rgb(183, 129, 103);">&nbsp;</div>
+<p>A813</p>
+<p>Dakar</p>
+<div class="preview_c" style="background: rgb(183, 129, 103);">
+<div class="ribbon">A813 Dakar • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="935d53">
+<div class="display-color" style="background: rgb(147, 93, 83);">&nbsp;</div>
+<p>A815</p>
+<p>Chocolate</p>
+<div class="preview_c" style="background: rgb(147, 93, 83);">
+<div class="ribbon">A815 Chocolate • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="723b36">
+<div class="display-color" style="background: rgb(114, 59, 54);">&nbsp;</div>
+<p>A816<br>
+Horse</p>
+<div class="preview_c" style="background: rgb(114, 59, 54);">
+<div class="ribbon">A816 Horse • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="663902">
+<div class="display-color" style="background: rgb(102, 57, 2);">&nbsp;</div>
+<p>A818<br>
+Macadamia</p>
+<div class="preview_c" style="background: rgb(102, 57, 2);">
+<div class="ribbon">A818 Macadamia • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="402121">
+<div class="display-color" style="background: rgb(64, 33, 33);">&nbsp;</div>
+<p>A819</p>
+<p>Dark tobacco</p>
+<div class="preview_c" style="background: rgb(64, 33, 33);">
+<div class="ribbon">A819 Dark tobbaco • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ffffff">
+<div class="display-color" style="background: rgb(255, 255, 255);">&nbsp;</div>
+<p>A900</p>
+<p>Super White</p>
+<div class="preview_c" style="background: rgb(255, 255, 255);">
+<div class="ribbon">A900 Super White • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ffffff">
+<div class="display-color" style="background: rgb(255, 255, 255);">&nbsp;</div>
+<p>A901</p>
+<p>Белый</p>
+<div class="preview_c" style="background: rgb(255, 255, 255);">
+<div class="ribbon">A901 Белый • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="ffffff">
+<div class="display-color" style="background: rgb(255, 255, 255);">&nbsp;</div>
+<p>A902</p>
+<p>Белый Глянцевый</p>
+<div class="preview_c" style="background: rgb(255, 255, 255);">
+<div class="ribbon">A902 Белый Глянцевый • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="000000">
+<div class="display-color" style="background: rgb(0, 0, 0);">&nbsp;</div>
+<p>A911</p>
+<p>Черный</p>
+<div class="preview_c" style="background: rgb(0, 0, 0);">
+<div class="ribbon">A911 Черный • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="000000">
+<div class="display-color" style="background: rgb(0, 0, 0);">&nbsp;</div>
+<p>A912</p>
+<p>Черный Глянцевый</p>
+<div class="preview_c" style="background: rgb(0, 0, 0);">
+<div class="ribbon">A912 Черный глянцевый • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="babab6">
+<div class="display-color" style="background: rgb(186, 186, 182);">&nbsp;</div>
+<p>A920</p>
+<p>Super Chrome</p>
+<div class="preview_c" style="background: rgb(186, 186, 182);">
+<div class="ribbon">A920 Super Chrome • Arton 400 ml.</div>
+</div>
+</div>
+<p><!---------------------!--></p>
+<div class="color" data-title="babab6">
+<div class="display-color" style="background: rgb(186, 186, 182);">&nbsp;</div>
+<p>A921</p>
+<p>Хром</p>
+<div class="preview_c" style="background: rgb(186, 186, 182);">
+<div class="ribbon">A921 Хром • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="d0c5d1">
+<div class="display-color" style="background: rgb(208, 197, 209);">&nbsp;</div>
+<p>A922</p>
+<p>Outline Silver</p>
+<div class="preview_c" style="background: rgb(208, 197, 209);">
+<div class="ribbon">A922 Outline Silver • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="c4b55e">
+<div class="display-color" style="background: rgb(196, 181, 94);">&nbsp;</div>
+<p>A923</p>
+<p>Золото</p>
+<div class="preview_c" style="background: rgb(196, 181, 94);">
+<div class="ribbon">A923 Gold • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="9b7a3a">
+<div class="display-color" style="background: rgb(155, 122, 58);">&nbsp;</div>
+<p>A924</p>
+<p>Bronze</p>
+<div class="preview_c" style="background: rgb(155, 122, 58);">
+<div class="ribbon">A924 Bronze • Arton 400 ml.</div>
+</div>
+</div>
+<div class="color" data-title="b2945b">
+<div class="display-color" style="background: rgb(178, 148, 91);">&nbsp;</div>
+<p>A925</p>
+<p>Cooper</p>
+<div class="preview_c" style="background: rgb(178, 148, 91);">
+<div class="ribbon">A925 Cooper • Arton 400 ml.</div>
+</div>
+</div>
+<p><!-------------------------!--></p>
+<div class="clr">&nbsp;</div>
+</div>

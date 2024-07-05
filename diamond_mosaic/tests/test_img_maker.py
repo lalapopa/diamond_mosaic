@@ -118,7 +118,7 @@ def test_get_text_coord():
 def test_get_encoding_text():
     assert (
         mosaic_image.encode_text
-        == img_to_mosaic.get_encoding_text(mosaic_image.color_name)
+        == img_to_mosaic.get_text_labels(mosaic_image.color_name)
     ).all()
 
 

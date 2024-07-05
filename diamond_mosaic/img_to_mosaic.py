@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
+from scipy.spatial import cKDTree
 import multiprocessing
 import concurrent.futures
 import pandas as pd
@@ -7,8 +8,7 @@ from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles.fills import PatternFill
 
-import diamond_mosaic.color_finder as color_finder
-import diamond_mosaic.color as color
+import diamond_mosaic.utils as utils
 import diamond_mosaic.settings as settings
 
 
@@ -64,15 +64,16 @@ def get_text_coord(img, m_size):
     return coord
 
 
-def add_text(image, text_list, coord_list, m_size):
+def add_text(image, text_list, m_size):
     draw = ImageDraw.Draw(image)
     m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
     font = ImageFont.truetype(
         "/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf",
         int((m_area / 2) + 1),
     )
+    coord_list = get_text_coord(image, m_size)
 
-    unfolded_text = [j for i in text_list for j in i]
+    unfolded_text = [j for i in text_list for j in i]  # flatten list
 
     for coord, text in zip(coord_list, unfolded_text):
         draw.text(
@@ -106,26 +107,34 @@ def get_ellipse_coord(img, mosaic_size):
     return coord_up, coord_down
 
 
-def add_circle(img_plane, up_coord, down_coord, color_list):
-    draw = ImageDraw.Draw(img_plane)
+def add_circle(image, color_list, mosaic_size):
+
+    up_coord, down_coord = get_ellipse_coord(image, mosaic_size)
+    draw = ImageDraw.Draw(image)
     for i, val in enumerate(up_coord):
         for j, x_coord in enumerate(val):
             color = tuple(color_list[i][j])
             draw.ellipse([tuple(x_coord), tuple(down_coord[i][j])], fill=color)
-    return img_plane
+    return image
+
+
+def close_color(rgb_color, color_data):
+    rgb_colors = np.array(list(color_data.values()))
+    dmc_code = np.array(list(color_data.keys()))
+    similar_color_idx = cKDTree(rgb_colors).query(rgb_color, k=1)[1]
+    return rgb_colors[similar_color_idx], dmc_code[similar_color_idx]
 
 
 def convert_color(input_colors):
-    color_palette = color.get_color(settings.PATH + settings.RGB_FILE)
+    color_palette = utils.read_json(settings.DATA_PATH + settings.RGB_FILE)
     color_palette = transform_array_in_dict(color_palette)
     converted_color = []
     colors_name = []
-    finded_unique_colors = {}
     for i in input_colors:
         row_color_rgb = []
         row_color_dmc_code = []
 
-        row_color_rgb, row_color_dmc_code = color_finder.close_color(i, color_palette)
+        row_color_rgb, row_color_dmc_code = close_color(i, color_palette)
         converted_color.append(row_color_rgb)
         colors_name.append(row_color_dmc_code)
     return converted_color, colors_name
@@ -179,13 +188,13 @@ def unique_count(a):
     return dict(sort_a)
 
 
-def save_color_table(file_name, color_list, encode_list):
+def save_color_table(file_name, encode_list):
     encode_result = unique_count(encode_list)
 
-    color_file = color.get_color(settings.PATH + settings.HEX_FILE)
-    encode_file = color.get_color(settings.PATH + settings.ENCODE_FILE)
+    color_file = utils.read_json(settings.DATA_PATH + settings.HEX_FILE)
+    labels_file = utils.read_json(settings.DATA_PATH + settings.LABELS_FILE)
 
-    encode_colors_list = list(encode_file.values())
+    encode_colors_list = list(labels_file.values())
     hex_colors_list = list(color_file.values())
     dmc_colors_list = list(color_file.keys())
 
@@ -206,8 +215,6 @@ def save_color_table(file_name, color_list, encode_list):
             if i == val:
                 hex_in_img.append(hex_colors_list[j])
                 dmc_in_img.append(dmc_colors_list[j])
-
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
     pd_amount = pd.DataFrame(list(encode_result.values()))
     pd_code = pd.DataFrame(dmc_in_img)
@@ -240,14 +247,14 @@ def save_color_table(file_name, color_list, encode_list):
     wb.save(file_name + ".xlsx")
 
 
-def get_encoding_text(color_in_img):
-    encoding_data = color.get_color(settings.PATH + settings.ENCODE_FILE)
-    color_names = list(encoding_data.keys())
-    all_encoding_values = list(encoding_data.values())
+def get_text_labels(color_in_img):
+    labels_data = utils.read_json(settings.DATA_PATH + settings.LABELS_FILE)
+    color_names = list(labels_data.keys())
+    labels_values = list(labels_data.values())
 
     encode_text = []
     for i in color_in_img:
-        a_row = [all_encoding_values[color_names.index(pixel)] for pixel in i]
+        a_row = [labels_values[color_names.index(pixel)] for pixel in i]
         encode_text.append(a_row)
     return encode_text
 
@@ -280,12 +287,10 @@ def save_img(file_name, img):
     img_with_pad = Image.new(img.mode, (new_w, new_h), (255, 255, 255))
     img_with_pad.paste(img, (margin_left_pix, margin_top_pix))
 
-    print(f"resolution in PDF = {res} ppi")
     paper_w = (new_w * margin) / margin_top_pix
     paper_h = (new_h * margin) / margin_top_pix
-
-    print(f"paper size width = {paper_w} cm, height = {paper_h} cm.")
-
+    print(f"Resolution of PDF = {res} ppi")
+    print(f"Paper size width = {paper_w} cm, height = {paper_h} cm.")
     img_with_pad.save(
         file_name + ".pdf",
         "PDF",
@@ -301,11 +306,10 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     mosaic_number_w, mosaic_number_h = hold_aspect_ratio(
         image.size, mosaic_number_w, mosaic_number_h
     )
-
     resize_img = np.array(image.resize((mosaic_number_w, mosaic_number_h)))
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print(f"Original size: {image.size} px width x height")
+    print(f"Original image size: {image.size} px width x height")
     print(
         f"Mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm (single cell is {mosaic_size} cm in diameter)"
     )
@@ -316,27 +320,17 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     print(f"Done converting colors ...")
 
     print(
-        f"Number of mosaic: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
+        f"Number of mosaics: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
     )
     picture_size = mosaic_to_pixel(mosaic_number_w, mosaic_number_h, mosaic_size)
-
+    print(f"Output image have size {picture_size}")
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
-    print(f"Blank img crated!")
 
-    up_coord, down_coord = get_ellipse_coord(ready_size_img, mosaic_size)
-    print(f"Ellipse coordinate founded!")
-
-    ready_img = add_circle(ready_size_img, up_coord, down_coord, color_list)
-    print(f"Circle added!")
-    coord_list = get_text_coord(ready_img, mosaic_size)
-    print(f"text coord founded!")
-    encode_text = get_encoding_text(color_name)
-    print(f"Encoded hex founded!")
-
-    ready_img = add_text(ready_img, encode_text, coord_list, mosaic_size)
-    print(f"Text added!")
+    ready_img = add_circle(ready_size_img, color_list, mosaic_size)
+    encode_text = get_text_labels(color_name)
+    ready_img = add_text(
+        ready_img, encode_text, mosaic_size
+    )  # todo: this line take most time
     # ready_img = add_grid(ready_img, mosaic_size)
     save_img("result", ready_img)
-    print(f"Saved!")
-    save_color_table("table", color_name, encode_text)
-    print(f"Table saved!")
+    save_color_table("table", encode_text)
