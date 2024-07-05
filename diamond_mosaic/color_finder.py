@@ -1,27 +1,11 @@
 import math
 import numpy as np
+from scipy.spatial import cKDTree
 
-np.seterr(over="raise")
-
-
-def distance(c1, c2):
-    rmean = (c1[0] + c2[0]) / 2
-    r = c1[0] - c2[0]
-    g = c1[1] - c2[1]
-    b = c1[2] - c2[2]
-    return math.sqrt(
-        (2 + rmean / 256) * r**2 + 4 * g**2 + (2 + (255 - rmean) / 256) * b**2
-    )
 
 
 def close_color(rgb_color, color_data):
-    color_name_out = ""
-    min_distance = float("inf")
-    for color_name, color in color_data.items():
-        i_distance = distance(np.array(color), rgb_color)
-        if i_distance <= min_distance:
-            min_distance = i_distance
-            color_name_out = color_name
-        if i_distance == 0:
-            break
-    return tuple(color_data.get(color_name_out)), color_name_out
+    rgb_colors = np.array(list(color_data.values()))
+    dmc_code = np.array(list(color_data.keys()))
+    similar_color_idx = cKDTree(rgb_colors).query(rgb_color, k=1)[1]
+    return rgb_colors[similar_color_idx], dmc_code[similar_color_idx]

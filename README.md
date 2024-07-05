@@ -6,6 +6,7 @@
 
 * Optimize algo for finding close color
 250x250 dots takes about 75 sec, 100x100 ≈14 sec, 400x400 ≈180 sec.
+* Ugly draw.text func takes most of the time  
 * Rewrite/rename some ugly function
 * Make test
 

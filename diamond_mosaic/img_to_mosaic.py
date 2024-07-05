@@ -1,7 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
-import time
-import json
 import multiprocessing
 import concurrent.futures
 import pandas as pd
@@ -26,7 +24,6 @@ def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
 
 
 def add_grid(image, m_size):
-    black = [0, 0, 0]
     line_width = 1
 
     m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
@@ -90,10 +87,6 @@ def add_text(image, text_list, coord_list, m_size):
     return image
 
 
-def get_color_name_in_img(img, color_palate):
-    return [[get_color_name(pixel, color_palate) for pixel in i] for i in img]
-
-
 def get_ellipse_coord(img, mosaic_size):
     m_area = list(mosaic_to_pixel(1, 1, mosaic_size))[0]
     num_x = int(img.size[0] / m_area)
@@ -123,23 +116,25 @@ def add_circle(img_plane, up_coord, down_coord, color_list):
 
 
 def convert_color(input_colors):
-    color_palate = color.get_color(settings.PATH + settings.RGB_FILE)
+    color_palette = color.get_color(settings.PATH + settings.RGB_FILE)
+    color_palette = transform_array_in_dict(color_palette)
     converted_color = []
     colors_name = []
     finded_unique_colors = {}
     for i in input_colors:
-        row = []
-        for pixel in i:
-            if str(pixel) in finded_unique_colors:
-                row.append(finded_unique_colors[str(pixel)])
-                continue
-            close_color = color_finder.close_color(pixel, color_palate)
-            finded_unique_colors[str(pixel)] = close_color
-            row.append(close_color)
-        row = [i for i in zip(*row)]
-        converted_color.append(row[0])
-        colors_name.append(row[1])
+        row_color_rgb = []
+        row_color_dmc_code = []
+
+        row_color_rgb, row_color_dmc_code = color_finder.close_color(i, color_palette)
+        converted_color.append(row_color_rgb)
+        colors_name.append(row_color_dmc_code)
     return converted_color, colors_name
+
+
+def transform_array_in_dict(dict_colors):
+    for key, value in dict_colors.items():
+        dict_colors[key] = np.array(value)
+    return dict_colors
 
 
 def split_weird_array(array):
@@ -185,7 +180,6 @@ def unique_count(a):
 
 
 def save_color_table(file_name, color_list, encode_list):
-    color_result = unique_count(color_list)
     encode_result = unique_count(encode_list)
 
     color_file = color.get_color(settings.PATH + settings.HEX_FILE)
@@ -243,7 +237,6 @@ def save_color_table(file_name, color_list, encode_list):
         ws["I" + str(i + 2)].fill = PatternFill(
             "solid", start_color=str(sorted_hex_colors[i])[1::]
         )
-
     wb.save(file_name + ".xlsx")
 
 
@@ -305,8 +298,6 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     mosaic_size = 0.25  # cm
 
     image = Image.open(img_name)
-    color_palate = color.get_color(settings.PATH + settings.RGB_FILE)
-
     mosaic_number_w, mosaic_number_h = hold_aspect_ratio(
         image.size, mosaic_number_w, mosaic_number_h
     )
@@ -320,22 +311,32 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     )
 
     chunks = divide_into_chunks(resize_img)
+    print(f"Converting colors ...")
     color_list, color_name = paralell_color_convertion(chunks)
+    print(f"Done converting colors ...")
 
     print(
         f"Number of mosaic: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
     )
-    # print(f"Color_list = shape is {color_list.shape}")
     picture_size = mosaic_to_pixel(mosaic_number_w, mosaic_number_h, mosaic_size)
+
     ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
+    print(f"Blank img crated!")
 
     up_coord, down_coord = get_ellipse_coord(ready_size_img, mosaic_size)
+    print(f"Ellipse coordinate founded!")
 
     ready_img = add_circle(ready_size_img, up_coord, down_coord, color_list)
+    print(f"Circle added!")
     coord_list = get_text_coord(ready_img, mosaic_size)
+    print(f"text coord founded!")
     encode_text = get_encoding_text(color_name)
+    print(f"Encoded hex founded!")
 
     ready_img = add_text(ready_img, encode_text, coord_list, mosaic_size)
-    ready_img = add_grid(ready_img, mosaic_size)
+    print(f"Text added!")
+    # ready_img = add_grid(ready_img, mosaic_size)
     save_img("result", ready_img)
+    print(f"Saved!")
     save_color_table("table", color_name, encode_text)
+    print(f"Table saved!")

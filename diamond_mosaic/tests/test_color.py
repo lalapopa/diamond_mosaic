@@ -1,4 +1,5 @@
 import pytest
+import numpy as np
 
 from diamond_mosaic.color_finder import close_color
 from diamond_mosaic.color import get_color
@@ -10,16 +11,18 @@ from diamond_mosaic.color_palette import make_colors
 @pytest.mark.parametrize(
     "in_color, out_color, dmc_color",
     [
-        ((123, 123, 123), (107, 128, 132), "3768"),
-        ((72, 98, 50), (72, 97, 49), "3345"),
-        ((235, 229, 210), (233, 233, 212), "000"),
-        ((254, 254, 254), (255, 255, 255), "5200"),
-        ((0, 0, 0), (0, 0, 0), "310"),
+        (np.array([123, 123, 123]), np.array([107, 128, 132]), "3768"),
+        (np.array([72, 98, 50]), np.array([72, 97, 49]), "3345"),
+        (np.array([235, 229, 210]), np.array([233, 233, 212]), "000"),
+        (np.array([254, 254, 254]), np.array([255, 255, 255]), "5200"),
+        (np.array([0, 0, 0]), np.array([0, 0, 0]), "310"),
     ],
 )
 def test_color_finder(in_color, out_color, dmc_color):
     rgb = get_color(PATH + RGB_FILE)
-    assert close_color(in_color, rgb) == (out_color, dmc_color)
+    rgb_color_value, dmc_code = close_color(in_color, rgb)
+    assert dmc_code == dmc_color
+    assert (rgb_color_value == out_color).all()
 
 
 @pytest.mark.parametrize(
