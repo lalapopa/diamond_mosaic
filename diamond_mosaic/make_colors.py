@@ -19,10 +19,10 @@ FILE_PALETTE = PATH + RAW_PALETTE_FILE
 color_trigger = r"(bgcolor=.........?)|(data-title=........?)"
 quote_trigger = r"\".*?\""
 color_dmc_trigger = (
-    r'(<td class="style3">(.*?)<\/td>)|(<div class="ribbon">(.*?)<\/div>)'
+    r'(<td class="style3">(?P<raw>.*?)</td>)|(<div class="ribbon">(?P<arton>.*?)</div>)'
 )
 
-number_trigger = r"\d+"
+number_trigger = r"\d+|A\d+"
 
 
 def two_value_coding(i):
@@ -87,8 +87,8 @@ def decode_palatte(file_palette):
     with open(file_palette, "r", encoding="utf-8") as f:
         for i in f:
             x = re.findall(color_trigger, i)
-            print(x)
             if x:
+                x = [i for i in x[0] if i]  # remove empty group
                 color_hash = re.findall(quote_trigger, x[0])[0]
                 if len(color_hash) == 9:  # "#aaaaaa"
                     color_hex_data.append(color_hash[1:-1])
@@ -97,15 +97,22 @@ def decode_palatte(file_palette):
                 else:
                     raise NameError("Your data '{file_palette}' has broken color value")
 
-            y = re.search(color_dmc_trigger, i)
+            y = re.match(color_dmc_trigger, i)
             if y:
-                raw = y.group(1)
-                color_code = re.findall(number_trigger, raw)
+                if y.group("arton"):
+                    color_number = y.group("arton")
+                elif y.group("raw"):
+                    color_number = y.group("raw")
+                else:
+                    color_number = None
+            else:
+                color_number = None
+            if color_number:
+                color_code = re.findall(number_trigger, color_number)
                 if color_code:
                     color_dmc_data.append(color_code[0])
 
     color_encoding = encode_colors(color_dmc_data)
-
     color_hex_dict = dict(zip(color_dmc_data, color_hex_data))
     color_rgb_dict = {
         k: v
@@ -114,7 +121,7 @@ def decode_palatte(file_palette):
             key=lambda item: item[1][0],
         )
     }
-
+    print(f"DMC COLORS: {len(color_dmc_data)}; COLOR: {len(color_hex_data)}")
     color_encoding_dict = dict(zip(color_dmc_data, color_encoding))
     return color_hex_dict, color_rgb_dict, color_encoding_dict
 
