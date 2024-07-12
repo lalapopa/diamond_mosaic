@@ -3,10 +3,12 @@
 </p>
 # Performance
 
-* 1000x1000 takes about 32 sec.
+* 1000x1000 takes about 350 sec. but impossible to view this large image (216 Mb)
+* 500x500 takes 93 sec. but hard to watch (54 Mb)
 
 # todos 
 
 * Rewrite/rename some ugly function
 * Make test
+* Manage large picture
 
