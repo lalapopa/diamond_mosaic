@@ -1,10 +1,9 @@
-import os
 import re
 import math
 from pathlib import Path
 from PIL import ImageColor
 
-from .settings import (
+from .config import (
     PATH,
     LABELS_FILE,
     RAW_PALETTE_FILE,

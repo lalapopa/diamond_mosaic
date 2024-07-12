@@ -1,7 +1,5 @@
-PATH = "/home/lalapopa/Lab/python/codes/diamond_mosaic/diamond_mosaic/data/"
-TEST_PATH = (
-    "/home/lalapopa/Lab/python/codes/diamond_mosaic/diamond_mosaic/tests/data_colors/"
-)
+PATH = "./diamond_mosaic/data/"
+TEST_PATH = "./diamond_mosaic/tests/data_colors/"
 
 RGB_FILE = "color_rgb_data.json"
 LABELS_FILE = "color_labels.json"

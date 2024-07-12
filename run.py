@@ -8,9 +8,9 @@ from diamond_mosaic.img_to_mosaic import img_to_mosaic
 def main():
     start_time = time.time()
 
-    mosaic_number_h = 50 
-    mosaic_number_w = 5
-    img = "doge.jpg"
+    mosaic_number_h = 100
+    mosaic_number_w = 3
+    img = "img3.png"
 
     with cProfile.Profile() as pr:
         img_to_mosaic(img, mosaic_number_w, mosaic_number_h)

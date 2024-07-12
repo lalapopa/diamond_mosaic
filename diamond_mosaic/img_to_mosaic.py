@@ -1,4 +1,5 @@
-from PIL import Image, ImageDraw, ImageFont
+import svgwrite
+from PIL import Image
 import numpy as np
 from scipy.spatial import cKDTree
 import multiprocessing
@@ -9,7 +10,7 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles.fills import PatternFill
 
 import diamond_mosaic.utils as utils
-import diamond_mosaic.settings as settings
+import diamond_mosaic.config as config
 
 
 def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
@@ -23,75 +24,30 @@ def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
     return (round(w * single_mosaic_pixel), round(h * single_mosaic_pixel))
 
 
-def add_grid(image, m_size):
-    line_width = 1
-
-    m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
-    image_shape = list(image.size)
-    num_lines_x = int((image_shape[0] + 1) / m_area)
-    num_lines_y = int((image_shape[1] + 1) / m_area)
-    lines_x_coord = [
-        num * m_area - 1 if num != 0 else 0 for num in range(0, num_lines_x + 1)
-    ]
-    lines_y_coord = [
-        num * m_area - 1 if num != 0 else 0 for num in range(0, num_lines_y + 1)
-    ]
-
-    draw = ImageDraw.Draw(image)
-    for x_coord in lines_x_coord:
-        draw.line(
-            [(x_coord, 0), (x_coord, image_shape[1])], fill="black", width=line_width
-        )
-    for y_coord in lines_y_coord:
-        draw.line(
-            [(0, y_coord), (image_shape[0], y_coord)], fill="black", width=line_width
-        )
-    return image
-
-
-def get_text_coord(img, m_size):
-    m_area = mosaic_to_pixel(1, 1, m_size)[0]
-    num_dot_x = int((img.size[0] + 1) / m_area)
-    num_dot_y = int((img.size[1] + 1) / m_area)
-
-    x_coord = [num * m_area + round(m_area / 2) for num in range(0, num_dot_x)]
-    y_coord = [num * m_area + round(m_area / 2) for num in range(0, num_dot_y)]
-
-    coord = []
-    for y in y_coord:
-        for x in x_coord:
-            coord.append((x, y))
-    return coord
-
-
-def add_text(image, text_list, m_size):
-    draw = ImageDraw.Draw(image)
-    m_area = list(mosaic_to_pixel(1, 1, m_size))[0]
-    font = ImageFont.truetype(
-        "/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf",
-        int((m_area / 2) + 1),
+def add_svg_text(svg_img, text_list, mosaic_size):
+    coords, mosaic_r_mm = get_ellipse_params(
+        len(text_list), len(text_list[0]), mosaic_size
     )
-    coord_list = get_text_coord(image, m_size)
+    style = f"text-anchor:middle;stroke-width:{mosaic_r_mm*0.01}mm;stroke:#000000;"
+    for i, row in enumerate(coords):
+        for j, circle_middle in enumerate(row):
+            text_middle_coord = (circle_middle[0], circle_middle[1] + mosaic_r_mm / 3)
+            svg_img.add(
+                svg_img.text(
+                    text_list[i][j],
+                    insert=text_middle_coord,
+                    fill="white",
+                    style=style,
+                    font_size=f"{(mosaic_r_mm/3)}mm",
+                )
+            )
+    return svg_img
 
-    unfolded_text = [j for i in text_list for j in i]  # flatten list
 
-    for coord, text in zip(coord_list, unfolded_text):
-        draw.text(
-            coord,
-            text,
-            fill="white",
-            font=font,
-            stroke_width=2,
-            stroke_fill="black",
-            anchor="mm",
-        )
-    return image
-
-
-def get_ellipse_coord(img, mosaic_size):
+def get_ellipse_coord(pic_size, mosaic_size):
     m_area = list(mosaic_to_pixel(1, 1, mosaic_size))[0]
-    num_x = int(img.size[0] / m_area)
-    num_y = int(img.size[1] / m_area)
+    num_x = int(pic_size[0] / m_area)
+    num_y = int(pic_size[1] / m_area)
     x_coord = [m_area * num for num in range(0, num_x + 1)]
     y_coord = [m_area * num for num in range(0, num_y + 1)]
 
@@ -107,15 +63,31 @@ def get_ellipse_coord(img, mosaic_size):
     return coord_up, coord_down
 
 
-def add_circle(image, color_list, mosaic_size):
+def get_ellipse_params(mosaic_w_amount, mosaic_h_amount, mosaic_size):
+    mosaic_d_mm = mosaic_size * 10
+    coords = []
+    for y in range(1, mosaic_w_amount + 1):
+        coords.append(
+            [
+                (
+                    (mosaic_d_mm) * x + mosaic_d_mm / 2,
+                    (mosaic_d_mm) * y - mosaic_d_mm / 2,
+                )
+                for x in range(0, mosaic_h_amount)
+            ]
+        )
+    return coords, mosaic_d_mm / 2
 
-    up_coord, down_coord = get_ellipse_coord(image, mosaic_size)
-    draw = ImageDraw.Draw(image)
-    for i, val in enumerate(up_coord):
-        for j, x_coord in enumerate(val):
-            color = tuple(color_list[i][j])
-            draw.ellipse([tuple(x_coord), tuple(down_coord[i][j])], fill=color)
-    return image
+
+def add_svg_circle(svg_img, color_list, mosaic_size):
+    coords, mosaic_r = get_ellipse_params(
+        len(color_list[0]), len(color_list), mosaic_size
+    )
+    for i, row in enumerate(coords):
+        for j, circle_middle in enumerate(row):
+            color = f"rgb({int(color_list[i][j][0])},{int(color_list[i][j][1])},{int(color_list[i][j][2])})"
+            svg_img.add(svg_img.circle(circle_middle, r=mosaic_r, fill=color))
+    return svg_img
 
 
 def close_color(rgb_color, color_data):
@@ -126,7 +98,7 @@ def close_color(rgb_color, color_data):
 
 
 def convert_color(input_colors):
-    color_palette = utils.read_json(settings.DATA_PATH + settings.RGB_FILE)
+    color_palette = utils.read_json(config.DATA_PATH + config.RGB_FILE)
     color_palette = transform_array_in_dict(color_palette)
     converted_color = []
     colors_name = []
@@ -191,8 +163,8 @@ def unique_count(a):
 def save_color_table(file_name, encode_list):
     encode_result = unique_count(encode_list)
 
-    color_file = utils.read_json(settings.DATA_PATH + settings.HEX_FILE)
-    labels_file = utils.read_json(settings.DATA_PATH + settings.LABELS_FILE)
+    color_file = utils.read_json(config.DATA_PATH + config.HEX_FILE)
+    labels_file = utils.read_json(config.DATA_PATH + config.LABELS_FILE)
 
     encode_colors_list = list(labels_file.values())
     hex_colors_list = list(color_file.values())
@@ -248,7 +220,7 @@ def save_color_table(file_name, encode_list):
 
 
 def get_text_labels(color_in_img):
-    labels_data = utils.read_json(settings.DATA_PATH + settings.LABELS_FILE)
+    labels_data = utils.read_json(config.DATA_PATH + config.LABELS_FILE)
     color_names = list(labels_data.keys())
     labels_values = list(labels_data.values())
 
@@ -272,33 +244,6 @@ def paralell_color_convertion(chunks):
     return color_list, color_name
 
 
-def save_img(file_name, img):
-    margin = 3  # cm
-    margin_top_pix = list(mosaic_to_pixel(1, 1, margin))[0]
-    margin_bottom_pix = margin_top_pix
-    margin_left_pix = list(mosaic_to_pixel(1, 1, margin))[0]
-    margin_right_pix = margin_left_pix
-
-    res = list(mosaic_to_pixel(1, 1, 2.54))[0]
-    w, h = img.size
-    new_w = w + margin_right_pix + margin_left_pix
-    new_h = h + margin_top_pix + margin_bottom_pix
-
-    img_with_pad = Image.new(img.mode, (new_w, new_h), (255, 255, 255))
-    img_with_pad.paste(img, (margin_left_pix, margin_top_pix))
-
-    paper_w = (new_w * margin) / margin_top_pix
-    paper_h = (new_h * margin) / margin_top_pix
-    print(f"Resolution of PDF = {res} ppi")
-    print(f"Paper size width = {paper_w} cm, height = {paper_h} cm.")
-    img_with_pad.save(
-        file_name + ".pdf",
-        "PDF",
-        resolution=res,
-        author="LALAPOPA",
-    )
-
-
 def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     mosaic_size = 0.25  # cm
 
@@ -310,27 +255,31 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
 
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print(f"Original image size: {image.size} px width x height")
+    mosaic_w = mosaic_size * mosaic_number_w * 10  # mm
+    mosaic_h = mosaic_size * mosaic_number_h * 10  # mm
     print(
-        f"Mosaic picture size width: {mosaic_size*mosaic_number_w} cm, height: {mosaic_size*mosaic_number_h} cm (single cell is {mosaic_size} cm in diameter)"
+        f"Mosaic picture size width: {mosaic_w} mm, height: {mosaic_h} mm (single cell is {mosaic_size} cm in diameter)"
     )
 
     chunks = divide_into_chunks(resize_img)
     print(f"Converting colors ...")
     color_list, color_name = paralell_color_convertion(chunks)
     print(f"Done converting colors ...")
-
     print(
         f"Number of mosaics: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
     )
-    picture_size = mosaic_to_pixel(mosaic_number_w, mosaic_number_h, mosaic_size)
-    print(f"Output image have size {picture_size}")
-    ready_size_img = Image.new("RGB", picture_size, (255, 255, 255))
-
-    ready_img = add_circle(ready_size_img, color_list, mosaic_size)
+    svg_img = svgwrite.Drawing(
+        "result.svg",
+        profile="full",
+        size=(
+            f"{mosaic_w}mm",
+            f"{mosaic_h}mm",
+        ),
+        viewBox=(f"0 0 {mosaic_w} {mosaic_h}"),
+    )
+    svg_img = add_svg_circle(svg_img, color_list, mosaic_size)
     encode_text = get_text_labels(color_name)
-    ready_img = add_text(
-        ready_img, encode_text, mosaic_size
-    )  # todo: this line take most time
-    # ready_img = add_grid(ready_img, mosaic_size)
-    save_img("result", ready_img)
+    svg_img = add_svg_text(svg_img, encode_text, mosaic_size)
+    print("saving")
+    svg_img.save()
     save_color_table("table", encode_text)

@@ -4,40 +4,40 @@ from PIL import Image, ImageDraw, ImageFont, ImageChops
 import numpy as np
 
 import diamond_mosaic.img_to_mosaic as img_to_mosaic
-import diamond_mosaic.settings as settings
+import diamond_mosaic.config as config
 
 
 class MosaicImage:
     def __init__(self):
-        self.image = Image.open(settings.TEST_PATH + "1200-630-img.jpg")
+        self.image = Image.open(config.TEST_PATH + "1200-630-img.jpg")
         self.mosaic_size = 0.25
         self.mosaic_number_w = 20
         self.mosaic_number_h = 10
         self.resize_size_w = 38
         self.resize_size_h = 20
-        with open(settings.TEST_PATH + "color_list_correct.npy", "rb") as f:
+        with open(config.TEST_PATH + "color_list_correct.npy", "rb") as f:
             self.color_list = np.load(f)
-        with open(settings.TEST_PATH + "color_name_correct.npy", "rb") as f:
+        with open(config.TEST_PATH + "color_name_correct.npy", "rb") as f:
             self.color_name = np.load(f)
 
         with open(
-            settings.TEST_PATH + "up_coords_correct.npy",
+            config.TEST_PATH + "up_coords_correct.npy",
             "rb",
         ) as f:
             self.up_coords = np.load(f)
         with open(
-            settings.TEST_PATH + "down_coords_correct.npy",
+            config.TEST_PATH + "down_coords_correct.npy",
             "rb",
         ) as f:
             self.down_coords = np.load(f)
         with open(
-            settings.TEST_PATH + "text_coords_correct.npy",
+            config.TEST_PATH + "text_coords_correct.npy",
             "rb",
         ) as f:
             self.text_coord = np.load(f)
-        with open(settings.TEST_PATH + "encoded_symbols_correct.npy", "rb") as f:
+        with open(config.TEST_PATH + "encoded_symbols_correct.npy", "rb") as f:
             self.encode_text = np.load(f)
-        with open(settings.TEST_PATH + "img-with-circle.npy", "rb") as f:
+        with open(config.TEST_PATH + "img-with-circle.npy", "rb") as f:
             self.img_circle = np.load(f)
 
 

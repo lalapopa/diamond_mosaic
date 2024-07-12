@@ -4,7 +4,7 @@ import numpy as np
 from diamond_mosaic.color_finder import close_color
 from diamond_mosaic.color import get_color
 
-from diamond_mosaic.settings import DATA_PATH, RGB_FILE, TEST_PATH, RAW_PALETTE_FILE
+from diamond_mosaic.config import DATA_PATH, RGB_FILE, TEST_PATH, RAW_PALETTE_FILE
 from diamond_mosaic import make_colors
 
 
