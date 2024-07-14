@@ -10,7 +10,7 @@ def main():
 
     mosaic_number_h = 100
     mosaic_number_w = 3
-    img = "img3.png"
+    img = "img.png"
 
     with cProfile.Profile() as pr:
         img_to_mosaic(img, mosaic_number_w, mosaic_number_h)

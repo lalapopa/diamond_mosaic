@@ -83,6 +83,8 @@ def add_svg_circle(svg_img, color_list, mosaic_size):
     coords, mosaic_r = get_ellipse_params(
         len(color_list[0]), len(color_list), mosaic_size
     )
+    print(np.array(coords).shape)
+    print(color_list.shape)
     for i, row in enumerate(coords):
         for j, circle_middle in enumerate(row):
             color = f"rgb({int(color_list[i][j][0])},{int(color_list[i][j][1])},{int(color_list[i][j][2])})"
@@ -248,6 +250,8 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     mosaic_size = 0.25  # cm
 
     image = Image.open(img_name)
+    image = image.convert("RGB")
+
     mosaic_number_w, mosaic_number_h = hold_aspect_ratio(
         image.size, mosaic_number_w, mosaic_number_h
     )
