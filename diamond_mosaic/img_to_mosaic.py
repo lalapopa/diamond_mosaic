@@ -26,7 +26,7 @@ def mosaic_to_pixel(w, h, m_s_cm, pixel_per_centimeter=120):
 
 def add_svg_text(svg_img, text_list, mosaic_size):
     coords, mosaic_r_mm = get_ellipse_params(
-        len(text_list), len(text_list[0]), mosaic_size
+        len(text_list[0]), len(text_list), mosaic_size
     )
     style = f"text-anchor:middle;stroke-width:{mosaic_r_mm*0.01}mm;stroke:#000000;"
     for i, row in enumerate(coords):
@@ -38,7 +38,7 @@ def add_svg_text(svg_img, text_list, mosaic_size):
                     insert=text_middle_coord,
                     fill="white",
                     style=style,
-                    font_size=f"{(mosaic_r_mm/3)}mm",
+                    font_size=f"{(mosaic_r_mm/3.5)}mm",
                 )
             )
     return svg_img
@@ -66,14 +66,14 @@ def get_ellipse_coord(pic_size, mosaic_size):
 def get_ellipse_params(mosaic_w_amount, mosaic_h_amount, mosaic_size):
     mosaic_d_mm = mosaic_size * 10
     coords = []
-    for y in range(1, mosaic_w_amount + 1):
+    for y in range(1, mosaic_h_amount + 1):
         coords.append(
             [
                 (
                     (mosaic_d_mm) * x + mosaic_d_mm / 2,
                     (mosaic_d_mm) * y - mosaic_d_mm / 2,
                 )
-                for x in range(0, mosaic_h_amount)
+                for x in range(0, mosaic_w_amount)
             ]
         )
     return coords, mosaic_d_mm / 2
@@ -83,8 +83,6 @@ def add_svg_circle(svg_img, color_list, mosaic_size):
     coords, mosaic_r = get_ellipse_params(
         len(color_list[0]), len(color_list), mosaic_size
     )
-    print(np.array(coords).shape)
-    print(color_list.shape)
     for i, row in enumerate(coords):
         for j, circle_middle in enumerate(row):
             color = f"rgb({int(color_list[i][j][0])},{int(color_list[i][j][1])},{int(color_list[i][j][2])})"
@@ -133,9 +131,17 @@ def split_weird_array(array):
 
 
 def hold_aspect_ratio(img_size, m_w, m_h):
-    ratio = img_size[0] / img_size[1]
-    max_mosaic = max(m_w, m_h)
-    return int(ratio * max_mosaic), int(max_mosaic)
+    if not m_h:
+        ratio = img_size[0] / img_size[1]
+        if m_w > 2:
+            dot_h = int(m_w / ratio)
+            dot_w = int(m_w)
+        else:
+            raise ValueError("Diamonds along width cant be less then <2")
+    else:
+        dot_h = int(m_h)
+        dot_w = int(m_w)
+    return dot_w, dot_h
 
 
 def divide_into_chunks(image):
@@ -246,8 +252,7 @@ def paralell_color_convertion(chunks):
     return color_list, color_name
 
 
-def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
-    mosaic_size = 0.25  # cm
+def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h, mosaic_size, save_name):
 
     image = Image.open(img_name)
     image = image.convert("RGB")
@@ -257,23 +262,17 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     )
     resize_img = np.array(image.resize((mosaic_number_w, mosaic_number_h)))
 
-    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    print(f"Original image size: {image.size} px width x height")
+    print(f"Original image size:   {image.size[0]}x{image.size[1]} px")
     mosaic_w = mosaic_size * mosaic_number_w * 10  # mm
     mosaic_h = mosaic_size * mosaic_number_h * 10  # mm
-    print(
-        f"Mosaic picture size width: {mosaic_w} mm, height: {mosaic_h} mm (single cell is {mosaic_size} cm in diameter)"
-    )
 
     chunks = divide_into_chunks(resize_img)
-    print(f"Converting colors ...")
     color_list, color_name = paralell_color_convertion(chunks)
-    print(f"Done converting colors ...")
     print(
-        f"Number of mosaics: {len(color_name[0])}x{len(color_name)} ({len(color_name[0])*len(color_name)} pc)"
+        f"Diamonds picture size: {mosaic_w}x{mosaic_h} mm ({len(color_name[0])}x{len(color_name)} pc)"
     )
     svg_img = svgwrite.Drawing(
-        "result.svg",
+        f"{save_name}.svg",
         profile="full",
         size=(
             f"{mosaic_w}mm",
@@ -284,6 +283,5 @@ def img_to_mosaic(img_name, mosaic_number_w, mosaic_number_h):
     svg_img = add_svg_circle(svg_img, color_list, mosaic_size)
     encode_text = get_text_labels(color_name)
     svg_img = add_svg_text(svg_img, encode_text, mosaic_size)
-    print("saving")
     svg_img.save()
-    save_color_table("table", encode_text)
+    save_color_table(f"{save_name}", encode_text)
