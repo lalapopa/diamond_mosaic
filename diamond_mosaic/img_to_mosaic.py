@@ -202,7 +202,7 @@ def save_color_table(file_name, encode_list):
 
     df = pd.concat([pd_amount, pd_encode, pd_code], axis=1)
     df.reset_index(drop=True, inplace=True)
-    df.columns = ["Кол-во", "Символ", "DMC цвет"]
+    df.columns = ["Amount in pieces", "Color label", "DMC color"]
 
     wb = Workbook()
     ws = wb.active
@@ -214,10 +214,10 @@ def save_color_table(file_name, encode_list):
             "solid", start_color=str(hex_in_img[i][1::])
         )
 
-    ws["F1"].value = "В алфавитном порядке"
-    ws["G1"].value = "Символ"
-    ws["H1"].value = "DMC цвет"
-    ws["I1"].value = "Цвет"
+    ws["F1"].value = "In alphabetical order"
+    ws["G1"].value = "Color label"
+    ws["H1"].value = "DMC color"
+    ws["I1"].value = "Color"
     for i in range(0, len(sorted_dmc_colors)):
         ws["G" + str(i + 2)].value = sorted_encode[i]
         ws["H" + str(i + 2)].value = sorted_dmc_colors[i]
